@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { BASE_PATH } from "@/lib/config";
 
 type Role = "user" | "assistant";
 interface Message {
@@ -71,7 +72,7 @@ export default function Page() {
     abortRef.current = controller;
 
     try {
-      const res = await fetch("/api/chat", {
+      const res = await fetch(`${BASE_PATH}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: newMessages }),
