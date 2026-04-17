@@ -134,73 +134,98 @@ export default function Page() {
   }
 
   return (
-    <div style={styles.page}>
-      <header style={styles.header}>
-        <div>
-          <div style={styles.brand}>Acadea Ticket Drafter</div>
-          <div style={styles.tagline}>
-            Interview → draft → copy into Zendesk.
-          </div>
-        </div>
-        <button onClick={reset} style={styles.secondaryButton} disabled={streaming && messages.length === 0}>
-          New ticket
-        </button>
-      </header>
-
-      <div style={styles.scroll} ref={scrollRef}>
-        {messages.length === 0 && (
-          <div style={styles.empty}>
-            <h2 style={{ margin: "0 0 8px 0" }}>What issue do you want to report?</h2>
-            <p style={styles.emptyCopy}>
-              Describe the problem in your own words. I&apos;ll ask a few follow-ups and hand you a ready-to-paste ticket.
-            </p>
-            <div style={styles.examples}>
-              <b style={{ fontSize: 13, color: "#555" }}>Example starters:</b>
-              <ul style={{ margin: "8px 0 0 0", paddingLeft: 18, color: "#555", fontSize: 14 }}>
-                <li>The Course Outline Report is pulling historical program drafts.</li>
-                <li>We can&apos;t log into the platform — getting a 500 error since this morning.</li>
-                <li>Need to add new semester/term entries to the lookup table.</li>
-              </ul>
+    <div style={styles.shell}>
+      <div style={styles.topBar} />
+      <div style={styles.page}>
+        <header style={styles.header}>
+          <div style={styles.brandBlock}>
+            <img
+              src={`${BASE_PATH}/brand/acadea-logo.png`}
+              alt="Acadea"
+              style={styles.logo}
+            />
+            <div style={styles.dividerDot} />
+            <div>
+              <div style={styles.appTitle}>Ticket Drafter</div>
+              <div style={styles.tagline}>
+                Interview → draft → copy into Zendesk
+              </div>
             </div>
           </div>
-        )}
+          <button
+            onClick={reset}
+            style={styles.secondaryButton}
+            disabled={streaming && messages.length === 0}
+          >
+            New ticket
+          </button>
+        </header>
 
-        {messages.map((m, i) => (
-          <MessageRow key={i} message={m} onCopy={copyTicket} />
-        ))}
-        {error && <div style={styles.error}>{error}</div>}
-      </div>
-
-      <div style={styles.composer}>
-        <textarea
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
-              e.preventDefault();
-              send();
-            }
-          }}
-          placeholder={
-            messages.length === 0
-              ? "Describe what's broken or what you need…"
-              : "Your reply… (⌘/Ctrl+Enter to send)"
-          }
-          style={styles.textarea}
-          disabled={streaming}
-          rows={3}
-        />
-        <div style={styles.composerActions}>
-          <div style={styles.hint}>⌘/Ctrl+Enter to send</div>
-          {streaming ? (
-            <button onClick={stop} style={styles.stopButton}>
-              Stop
-            </button>
-          ) : (
-            <button onClick={send} style={styles.sendButton} disabled={!input.trim()}>
-              Send
-            </button>
+        <div style={styles.scroll} ref={scrollRef}>
+          {messages.length === 0 && (
+            <div style={styles.empty}>
+              <h2 style={styles.emptyHeading}>
+                What issue do you want to report?
+              </h2>
+              <p style={styles.emptyCopy}>
+                Describe the problem in your own words. I&apos;ll ask a few
+                follow-ups and hand you a ready-to-paste ticket.
+              </p>
+              <div style={styles.examples}>
+                <div style={styles.examplesLabel}>Example starters</div>
+                <ul style={styles.examplesList}>
+                  <li>The Course Outline Report is pulling historical program drafts.</li>
+                  <li>We can&apos;t log into the platform — getting a 500 error since this morning.</li>
+                  <li>Need to add new semester/term entries to the lookup table.</li>
+                </ul>
+              </div>
+            </div>
           )}
+
+          {messages.map((m, i) => (
+            <MessageRow key={i} message={m} onCopy={copyTicket} />
+          ))}
+          {error && <div style={styles.error}>{error}</div>}
+        </div>
+
+        <div style={styles.composer}>
+          <textarea
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
+                e.preventDefault();
+                send();
+              }
+            }}
+            placeholder={
+              messages.length === 0
+                ? "Describe what's broken or what you need…"
+                : "Your reply… (⌘/Ctrl+Enter to send)"
+            }
+            style={styles.textarea}
+            disabled={streaming}
+            rows={3}
+          />
+          <div style={styles.composerActions}>
+            <div style={styles.hint}>⌘/Ctrl+Enter to send</div>
+            {streaming ? (
+              <button onClick={stop} style={styles.stopButton}>
+                Stop
+              </button>
+            ) : (
+              <button
+                onClick={send}
+                style={{
+                  ...styles.sendButton,
+                  ...(input.trim() ? {} : styles.sendButtonDisabled),
+                }}
+                disabled={!input.trim()}
+              >
+                Send
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>
@@ -262,7 +287,7 @@ function TicketBlock({
             setCopied(true);
             setTimeout(() => setCopied(false), 1500);
           }}
-          style={styles.copyButton}
+          style={copied ? styles.copyButtonDone : styles.copyButton}
         >
           {copied ? "Copied ✓" : "Copy to clipboard"}
         </button>
@@ -284,167 +309,290 @@ function TicketBlock({
   );
 }
 
+const BRAND = {
+  teal: "#195259",
+  moss: "#0D2426",
+  orange: "#F4380C",
+  cream: "#F5FCFC",
+  mint: "#B5E1E5",
+  aluminum: "#D9DFE8",
+  textMuted: "#4A6A6E",
+  border: "#DCE5E6",
+  borderStrong: "#C6D4D6",
+};
+
 const styles: Record<string, React.CSSProperties> = {
-  page: {
+  shell: {
     display: "flex",
     flexDirection: "column",
     height: "100vh",
-    maxWidth: 820,
+  },
+  topBar: {
+    height: 4,
+    background: BRAND.orange,
+    flexShrink: 0,
+  },
+  page: {
+    display: "flex",
+    flexDirection: "column",
+    flex: 1,
+    minHeight: 0,
+    maxWidth: 860,
+    width: "100%",
     margin: "0 auto",
-    padding: "0 16px",
+    padding: "0 20px",
   },
   header: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    padding: "16px 0",
-    borderBottom: "1px solid #e5e5e0",
+    padding: "18px 0 16px 0",
+    borderBottom: `1px solid ${BRAND.border}`,
+    gap: 16,
   },
-  brand: { fontSize: 18, fontWeight: 600 },
-  tagline: { fontSize: 13, color: "#666", marginTop: 2 },
+  brandBlock: {
+    display: "flex",
+    alignItems: "center",
+    gap: 14,
+    minWidth: 0,
+  },
+  logo: {
+    height: 32,
+    width: "auto",
+    display: "block",
+  },
+  dividerDot: {
+    width: 1,
+    height: 28,
+    background: BRAND.border,
+    flexShrink: 0,
+  },
+  appTitle: {
+    fontSize: 15,
+    fontWeight: 600,
+    color: BRAND.teal,
+    letterSpacing: -0.1,
+  },
+  tagline: {
+    fontSize: 12,
+    color: BRAND.textMuted,
+    marginTop: 2,
+  },
   secondaryButton: {
-    border: "1px solid #d0d0cc",
+    border: `1px solid ${BRAND.borderStrong}`,
     background: "#fff",
-    padding: "6px 12px",
-    borderRadius: 6,
+    color: BRAND.teal,
+    padding: "7px 14px",
+    borderRadius: 8,
     fontSize: 13,
+    fontWeight: 500,
     cursor: "pointer",
+    flexShrink: 0,
+    transition: "background 120ms ease, border-color 120ms ease",
   },
   scroll: {
     flex: 1,
     overflowY: "auto",
-    padding: "16px 0",
+    padding: "20px 0",
   },
   empty: {
-    padding: "48px 24px",
+    padding: "40px 28px",
     background: "#fff",
-    border: "1px solid #e5e5e0",
-    borderRadius: 8,
-    marginTop: 24,
+    border: `1px solid ${BRAND.border}`,
+    borderRadius: 12,
+    marginTop: 20,
+    boxShadow: "0 1px 2px rgba(13, 36, 38, 0.04)",
+    position: "relative",
+    overflow: "hidden",
   },
-  emptyCopy: { color: "#555", marginTop: 0, lineHeight: 1.5 },
+  emptyHeading: {
+    margin: "0 0 10px 0",
+    fontSize: 22,
+    fontWeight: 700,
+    color: BRAND.teal,
+    letterSpacing: -0.3,
+  },
+  emptyCopy: {
+    color: BRAND.textMuted,
+    margin: 0,
+    lineHeight: 1.55,
+    fontSize: 14.5,
+  },
   examples: {
     marginTop: 24,
-    padding: 12,
-    background: "#f0efeb",
-    borderRadius: 6,
+    padding: "14px 16px",
+    background: BRAND.cream,
+    border: `1px solid ${BRAND.border}`,
+    borderRadius: 8,
+  },
+  examplesLabel: {
+    fontSize: 11,
+    textTransform: "uppercase",
+    letterSpacing: 0.8,
+    fontWeight: 600,
+    color: BRAND.teal,
+    marginBottom: 8,
+  },
+  examplesList: {
+    margin: 0,
+    paddingLeft: 18,
+    color: BRAND.textMuted,
+    fontSize: 14,
+    lineHeight: 1.7,
   },
   userRow: {
     display: "flex",
     justifyContent: "flex-end",
-    margin: "12px 0",
+    margin: "14px 0",
   },
   userBubble: {
-    background: "#2d2d2a",
-    color: "#fafafa",
+    background: BRAND.teal,
+    color: BRAND.cream,
     padding: "10px 14px",
-    borderRadius: 12,
+    borderRadius: 14,
+    borderBottomRightRadius: 4,
     maxWidth: "80%",
     whiteSpace: "pre-wrap",
     lineHeight: 1.5,
     fontSize: 15,
+    boxShadow: "0 1px 2px rgba(13, 36, 38, 0.08)",
   },
-  assistantRow: { margin: "12px 0" },
+  assistantRow: { margin: "14px 0" },
   assistantBubble: {
     background: "#fff",
-    border: "1px solid #e5e5e0",
-    borderRadius: 12,
-    padding: 14,
-    lineHeight: 1.5,
+    border: `1px solid ${BRAND.border}`,
+    borderRadius: 14,
+    borderBottomLeftRadius: 4,
+    padding: "14px 16px",
+    lineHeight: 1.55,
     fontSize: 15,
+    boxShadow: "0 1px 2px rgba(13, 36, 38, 0.04)",
   },
   prose: { whiteSpace: "pre-wrap" },
-  cursor: { opacity: 0.5, animation: "none" },
+  cursor: {
+    opacity: 0.5,
+    color: BRAND.teal,
+    animation: "acadea-blink 1s ease-in-out infinite",
+  },
   ticketCard: {
-    margin: "12px 0",
-    border: "1px solid #c9c9c2",
-    borderRadius: 8,
-    background: "#fbfaf5",
+    margin: "14px 0",
+    border: `1px solid ${BRAND.borderStrong}`,
+    borderLeft: `3px solid ${BRAND.orange}`,
+    borderRadius: 10,
+    background: "#fff",
+    overflow: "hidden",
+    boxShadow: "0 2px 8px rgba(13, 36, 38, 0.05)",
   },
   ticketHeader: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    padding: "8px 12px",
-    borderBottom: "1px solid #e5e5e0",
+    padding: "10px 14px",
+    borderBottom: `1px solid ${BRAND.border}`,
+    background: BRAND.cream,
   },
   ticketLabel: {
-    fontSize: 12,
+    fontSize: 11,
     textTransform: "uppercase",
-    letterSpacing: 0.5,
-    color: "#666",
-    fontWeight: 600,
+    letterSpacing: 0.9,
+    color: BRAND.teal,
+    fontWeight: 700,
   },
   copyButton: {
-    border: "1px solid #c9c9c2",
-    background: "#fff",
-    padding: "4px 10px",
-    borderRadius: 4,
+    border: "none",
+    background: BRAND.teal,
+    color: BRAND.cream,
+    padding: "6px 12px",
+    borderRadius: 6,
     fontSize: 12,
+    fontWeight: 500,
+    cursor: "pointer",
+    transition: "background 120ms ease",
+  },
+  copyButtonDone: {
+    border: "none",
+    background: BRAND.orange,
+    color: BRAND.cream,
+    padding: "6px 12px",
+    borderRadius: 6,
+    fontSize: 12,
+    fontWeight: 500,
     cursor: "pointer",
   },
   ticketBody: {
     margin: 0,
-    padding: 12,
+    padding: 14,
     fontSize: 13,
-    lineHeight: 1.5,
+    lineHeight: 1.55,
     whiteSpace: "pre-wrap",
     wordBreak: "break-word",
-    background: "transparent",
+    background: "#fff",
+    color: BRAND.moss,
   },
   ticketFooter: {
-    padding: "8px 12px",
+    padding: "10px 14px",
     fontSize: 12,
-    color: "#555",
-    borderTop: "1px solid #e5e5e0",
+    color: BRAND.textMuted,
+    borderTop: `1px solid ${BRAND.border}`,
+    background: BRAND.cream,
   },
-  link: { color: "#2d2d2a", textDecoration: "underline" },
+  link: { color: BRAND.teal, textDecoration: "underline" },
   composer: {
-    padding: "12px 0 16px 0",
-    borderTop: "1px solid #e5e5e0",
+    padding: "14px 0 18px 0",
+    borderTop: `1px solid ${BRAND.border}`,
   },
   textarea: {
     width: "100%",
-    border: "1px solid #d0d0cc",
-    borderRadius: 8,
+    border: `1px solid ${BRAND.borderStrong}`,
+    borderRadius: 10,
     padding: 12,
     fontSize: 15,
     resize: "vertical",
     background: "#fff",
-    lineHeight: 1.4,
+    lineHeight: 1.45,
+    color: BRAND.moss,
+    boxShadow: "0 1px 2px rgba(13, 36, 38, 0.03)",
   },
   composerActions: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    marginTop: 8,
+    marginTop: 10,
   },
-  hint: { fontSize: 12, color: "#888" },
+  hint: { fontSize: 12, color: BRAND.textMuted },
   sendButton: {
-    background: "#2d2d2a",
-    color: "#fafafa",
+    background: BRAND.teal,
+    color: BRAND.cream,
     border: "none",
-    padding: "8px 16px",
-    borderRadius: 6,
+    padding: "9px 20px",
+    borderRadius: 8,
     fontSize: 14,
     cursor: "pointer",
-    fontWeight: 500,
+    fontWeight: 600,
+    letterSpacing: 0.1,
+    transition: "background 120ms ease",
+  },
+  sendButtonDisabled: {
+    background: BRAND.borderStrong,
+    color: "#fff",
+    cursor: "not-allowed",
   },
   stopButton: {
-    background: "#b12929",
-    color: "#fafafa",
+    background: BRAND.orange,
+    color: BRAND.cream,
     border: "none",
-    padding: "8px 16px",
-    borderRadius: 6,
+    padding: "9px 20px",
+    borderRadius: 8,
     fontSize: 14,
     cursor: "pointer",
+    fontWeight: 600,
   },
   error: {
-    background: "#fde7e7",
-    border: "1px solid #f3b5b5",
-    color: "#8a2323",
+    background: "#fde7e2",
+    border: `1px solid ${BRAND.orange}`,
+    color: "#8a2310",
     padding: 12,
-    borderRadius: 6,
+    borderRadius: 8,
     margin: "12px 0",
     fontSize: 14,
   },
