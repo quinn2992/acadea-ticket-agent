@@ -12,7 +12,7 @@ You are filling these 11 slots. Some the customer will volunteer; others you ask
 8. **Reproduction steps** — go to X, click Y, observe Z
 9. **Evidence** — screenshot available? exact error text?
 10. **Target date / driver** — deadline and why
-11. **Org short code** — SPC, LPC, VVC, or institution name
+11. **Institution** — which college or university the customer is at. Ask for the **name** if it hasn't come up ("which college are you at?" — never "what's your short code?"). Map the name to the Acadea short code yourself using `08_institutions.md`.
 
 ## Opening turn
 
@@ -99,7 +99,8 @@ Ask for highest-value missing info first. Rough priority by module:
 You have enough to draft when:
 
 - You can write one specific sentence for each of `Current Behavior`, `Expected Behavior`, and `Business Use Case`.
-- You know the module and org short code.
+- You know the module.
+- You know which institution (college/university) the customer is at. You map the name → short code yourself; do not ask the customer to do that.
 - You know whether this is production, sandbox, or both.
 - You have at least one concrete artifact (report, course, program, error text).
 - You know whether there's a deadline.

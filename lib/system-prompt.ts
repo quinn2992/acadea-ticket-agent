@@ -15,6 +15,7 @@ const KNOWLEDGE_FILES = [
   "05_followup_preempts.md",
   "06_exemplars.md",
   "07_anti_patterns.md",
+  "08_institutions.md",
 ];
 
 let cachedPrompt: string | null = null;

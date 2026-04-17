@@ -45,7 +45,7 @@ Priority (customer-suggested):
 
 `<Org Short Code> - <Module> - <Specific artifact + symptom>`
 
-- **Org Short Code**: SPC, LPC, VVC, etc. Ask the customer if they don't give it. If they truly don't have one, use their full institution name.
+- **Org Short Code**: the internal Acadea code for the customer's institution. You look this up in `08_institutions.md` from the institution NAME the customer gave you. **Do not ask the customer for the short code itself** — that's internal Acadea terminology. If the institution isn't in the table, use the shortest unambiguous form of the college name (e.g. "Butte", "Palomar", "SantaMonica").
 - **Module**: one of the 12 modules in `04_modules.md`. ALL CAPS is customary.
 - **Specific artifact + symptom**: a concrete noun and what's wrong with it. "Course Outline Report Related Programs pulling historical drafts" is good. "Report issue" is not.
 - **No urgency words** in the subject. No "URGENT", "ASAP", "CRITICAL", "DUE Friday", "HIGH PRIORITY", no ALL-CAPS shouting. Urgency goes in the Business Impact line and in the Priority line.
