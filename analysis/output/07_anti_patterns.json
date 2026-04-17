@@ -1,0 +1,665 @@
+{
+  "dataset_sizes": {
+    "spc": 606,
+    "craig": 199,
+    "armando": 43
+  },
+  "anti_pattern_counts": {
+    "A7_no_business_use_case": {
+      "total_count": 699,
+      "pct_of_all_tickets": 82.4,
+      "per_dataset_pct": {
+        "spc": 83.2,
+        "craig": 83.4,
+        "armando": 67.4
+      }
+    },
+    "A8_csm_authored_first_comment": {
+      "total_count": 211,
+      "pct_of_all_tickets": 24.9,
+      "per_dataset_pct": {
+        "spc": 28.5,
+        "craig": 14.1,
+        "armando": 23.3
+      }
+    },
+    "A2_vague_subject": {
+      "total_count": 193,
+      "pct_of_all_tickets": 22.8,
+      "per_dataset_pct": {
+        "spc": 17.0,
+        "craig": 41.2,
+        "armando": 18.6
+      }
+    },
+    "A6_ui_trouble_without_evidence": {
+      "total_count": 172,
+      "pct_of_all_tickets": 20.3,
+      "per_dataset_pct": {
+        "spc": 21.6,
+        "craig": 17.6,
+        "armando": 14.0
+      }
+    },
+    "A3_empty_or_tiny_desc": {
+      "total_count": 45,
+      "pct_of_all_tickets": 5.3,
+      "per_dataset_pct": {
+        "spc": 5.0,
+        "craig": 7.0,
+        "armando": 2.3
+      }
+    },
+    "A1_urgency_in_subject": {
+      "total_count": 28,
+      "pct_of_all_tickets": 3.3,
+      "per_dataset_pct": {
+        "spc": 4.6,
+        "craig": 0.0,
+        "armando": 0.0
+      }
+    },
+    "A5_solution_smuggling": {
+      "total_count": 2,
+      "pct_of_all_tickets": 0.2,
+      "per_dataset_pct": {
+        "spc": 0.2,
+        "craig": 0.5,
+        "armando": 0.0
+      }
+    },
+    "A4_forwarded_email_desc": {
+      "total_count": 1,
+      "pct_of_all_tickets": 0.1,
+      "per_dataset_pct": {
+        "spc": 0.2,
+        "craig": 0.0,
+        "armando": 0.0
+      }
+    }
+  },
+  "samples": {
+    "A7_no_business_use_case": [
+      {
+        "id": 44819,
+        "dataset": "spc",
+        "subject": "SPC REPORTS - Course Outline Report Related Programs Issue",
+        "desc": "Some of the Active Course Outline Reports are erroneously pulling in drafts of now historical versions of proposals or deleted draft programs in the Related Programs at the bottom of the report. Please see the attached ticket for details and screenshots."
+      },
+      {
+        "id": 44784,
+        "dataset": "spc",
+        "subject": "MLOs/CLOs not appearing correctly on Simple Syllabus",
+        "desc": "The data for MLOs and CLOs coming over into Simple Syllabus are not appearing correctly.  This was fine for our Spring Term but is not correct for courses in Summer Term and we have not made a change on our end. Our registration opens today so this is an urgent issue."
+      },
+      {
+        "id": 44563,
+        "dataset": "spc",
+        "subject": "SPC FL CIP Table update: 1101510014",
+        "desc": "Hello, Please add the following to the FL CIP table:\nFlorida CIP Code: 1101510014\nTitle: Building Construction Technology\nFederal CIP: 15.1001\nPlease let me know when the next release is expected and if this CIP can be added to it.\nThank you,\nAndrijana Ekberg"
+      },
+      {
+        "id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "desc": "**SEE ATTACHED PDF FOR FULL DETAILS IN THE EMAIL THREAD.**\nAngela and Troy,\nI think we have a multi-level issue going on here.  Please note that I\u2019ve received the same 500-level errors when stepping thru the code, but everything from this point in the email is a reference to Postman.\nLIVE: https://mws.services.curriqunet.com/scripts/webservices/generic_meta/clients/versions/v5/stpetersburg.cfc?met"
+      },
+      {
+        "id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "desc": "We currently have two proposal types for articulations - new and modify. However, we occasionally need to have one of these programs in a teach-out status. We've been using the Active Status field on the Codes and Dates page, but this doesn't show in our reports or the search in Meta. Can we either add a new proposal type for articulation teach-outs or have that active status field show in both of"
+      },
+      {
+        "id": 44466,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "desc": "In the Articulation AR Courses report, we would like to add a column for Total Credits awarded. This would pull from the Course Blocks page. There are a few articulations that have a variable credit amount. If this can be displayed, that's ideal, but if not, we'd like the maximum amount to display."
+      },
+      {
+        "id": 44465,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Programs",
+        "desc": "In the Articulation AR Programs report, we would like the following changes:\n1 - Change the title of Column D to Articulation Agreement Status (this is not urgent)\n2 - In Column J, have the report pull only the numerical CIP Code value (it is currently populating the text part), and then add 1 column to the right of J that pulls the text value for the CIP field (i.e. state-assigned degree name)\n3 "
+      },
+      {
+        "id": 44464,
+        "dataset": "spc",
+        "subject": "Academic Pathways Instructional Text",
+        "desc": "On the Academic Pathways, where there's instructional text (top left), we would like to make the following changes:\nMove the 4th bullet point (For additional program and...) to become the second bullet, and add the following link at the end of the sentence: https://www.spcollege.edu/current-students/student-affairs/student-support-resources/advising\nEdit the final bullet point to remove the last f"
+      },
+      {
+        "id": 44308,
+        "dataset": "spc",
+        "subject": "SPC SYSTEM - Proposal Launch Permissions",
+        "desc": "We have now encountered two instances where users other than the proposal originator are able to launch proposals into the workflow. Since we are at a point in our cycle where most items are already launched, we\u2019ve only seen this happen with courses for now. Knowing both instances occurred with Deans I tested with a regular user. Please see attached ticket for details and screenshots."
+      },
+      {
+        "id": 44327,
+        "dataset": "spc",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager",
+        "desc": "I made a course block library title update yesterday that is not appearing in the block type drop down list upon opening a new course block library. Can you please refresh on your end and see if that works? We had a similar issue with a new academic org that took three days to appear in proposals but we were told we could request a refresh.\nPlease see attached ticket for additional details and scr"
+      },
+      {
+        "id": 44330,
+        "dataset": "spc",
+        "subject": "SPC - add access to Zendesk",
+        "desc": "Please add Paul Stevens (Stevens.Paul@spcollege.edu) and Taylor Connor (Connor.Taylor@spcollege.edu) to the Zendesk ticketing for St. Petersburg College so they may communicate directly regarding API and other technical needs."
+      },
+      {
+        "id": 44319,
+        "dataset": "spc",
+        "subject": "SPC URGENT API access",
+        "desc": "permissions for Paul Stevens at SPC for making API calls seem to have been stripped again.\u00a0 Could you please reinstate them? Could also be a firewall issue.\u00a0 I\u2019m using the same credentials as our job in production, but I\u2019m getting a timeout on my end.\u00a0 If it helps, my current IP address is 68.200.178.122."
+      },
+      {
+        "id": 44255,
+        "dataset": "spc",
+        "subject": "Remove Archived Pathways link on report",
+        "desc": "Please remove the following link from the Program Pathways Archive report.  Link address: https://info.spcollege.edu/Community/AP/;\nText:  Archived Pathways - Spring 2022 (600) and earlier terms"
+      },
+      {
+        "id": 44038,
+        "dataset": "spc",
+        "subject": "New Status - IC Approved",
+        "desc": "Please create and make active a new status for \"IC Approved\".\nLet me know if any questions.\nThanks!\n~S"
+      },
+      {
+        "id": 44033,
+        "dataset": "spc",
+        "subject": "Andrijana Ekberg full access to SPC ZenDesk",
+        "desc": "Please provide Andrijana Ekberg full access to SPC ZenDesk. She needs full access to the organization like Angela Ashe and Shirley Boyette.\nekberg.andrijana@spcollege.edu\nThanks!\n~S"
+      },
+      {
+        "id": 44029,
+        "dataset": "spc",
+        "subject": "PROGRAMS \u2013 Ind Certs form changes  CS283",
+        "desc": "HIGH to NORMAL PRIORITY\nThis is continued work on the new Industry Certification form.\nThe following are either a fix or a change depending on each situation and interpretation of the original ticket.\nPROGRAMS > Program Type = Industry Certs > form\n1.\tBasic Program Information tab > change field label \u201cApproved by\u201d to \u201c Date Approved\u201d\n2.\tOverview tab > Under  \u2018Certification Exam\u2019 section, the \u201cLea"
+      },
+      {
+        "id": 43926,
+        "dataset": "spc",
+        "subject": "SYSTEM - New Academic Org Issue",
+        "desc": "In the System Configuration > Organization I have created a new academic org by the name of HNRS-UD but it is not showing as a selection option in the course proposal drop down menus, yet it is showing elsewhere. Please see attached ticket for detailed information and screenshots.\nSince we are in a new course submission cycle, we will need this fix applied by 11/28/2025 to keep proposals moving th"
+      },
+      {
+        "id": 43963,
+        "dataset": "spc",
+        "subject": "URGENT - any system or server changes?",
+        "desc": "Our Program Reports pulled pulled from Meta via API onto our website are no longer available. Has there been any system or server changes in the last day or two? When this happened before there  was a change on the Meta side and we had not been informed of the change. The error message is \"Server Error.  500 - Internal server error. There is a problem with the resource you are looking form and it "
+      },
+      {
+        "id": 43902,
+        "dataset": "spc",
+        "subject": "SPC - Programs - Move programs to current active form template",
+        "desc": "This is a follow-up to your previous request #43581 \"PROGRAMS \u2013  add PLO date field accred body  CS277\"\nTHIS IS NOT COMPLETE.  It was supposed to be applied to the ACTIVE form/proposals; however, it is only on the new/draft proposal.\nNeed this applied to the ACTIVE PROPOSALS AS SOON AS POSSIBLE.\nBoth my ticket description and my attachment ticket was clear that this was to the ACTIVE form."
+      },
+      {
+        "id": 43825,
+        "dataset": "spc",
+        "subject": "Program PW Rpt ID# 239 PDF layout change",
+        "desc": "Program Pathway Report ID# 239, please modify the PDF default settings layout to LANDSCAPE.\nUser needs to be able to view, save, and print the PDF in landscape orientation.\nThis report is too wide and is hard to read/print in portrait layout.\nThanks!\n~S"
+      }
+    ],
+    "A3_empty_or_tiny_desc": [
+      {
+        "id": 44766,
+        "dataset": "spc",
+        "subject": "SPC - Refresh Sandbox",
+        "desc_len": 67,
+        "desc": "Please refresh our SANDBOX at your earliest opportunity.\nThank you!"
+      },
+      {
+        "id": 43661,
+        "dataset": "spc",
+        "subject": "SPC - Data Dictionary",
+        "desc_len": 38,
+        "desc": "Please send SPC a new Data Dictionary."
+      },
+      {
+        "id": 43257,
+        "dataset": "spc",
+        "subject": "SPC - Progams - State and Federal Requirements",
+        "desc_len": 44,
+        "desc": "On the field Soc Code - Please change to SOC"
+      },
+      {
+        "id": 41993,
+        "dataset": "spc",
+        "subject": "SEMESTER/TERM TABLE - Add Additional Items",
+        "desc_len": 75,
+        "desc": "Adding additional terms, please see attached ticket for details. Thank you!"
+      },
+      {
+        "id": 41625,
+        "dataset": "spc",
+        "subject": "SPC - Programs - Sort Options",
+        "desc_len": 58,
+        "desc": "Wouldl ike to have Program Code added to the Sort Options."
+      },
+      {
+        "id": 41552,
+        "dataset": "spc",
+        "subject": "SPC - Program - Gainful Employment Tab",
+        "desc_len": 64,
+        "desc": "After they go live with Maverick, remove this tab from Programs."
+      },
+      {
+        "id": 41401,
+        "dataset": "spc",
+        "subject": "SPC - Program - Search",
+        "desc_len": 54,
+        "desc": "Make the default for everyone - Active and Historical."
+      },
+      {
+        "id": 39998,
+        "dataset": "spc",
+        "subject": "SPC - Cloning",
+        "desc_len": 61,
+        "desc": "Please add the cloning proposals to both course and programs."
+      },
+      {
+        "id": 38475,
+        "dataset": "spc",
+        "subject": "Chaffey - Program - Academic Map",
+        "desc_len": 68,
+        "desc": "Please do not have the Academic Map tab copy over on a Academic Map."
+      },
+      {
+        "id": 38314,
+        "dataset": "spc",
+        "subject": "Meta down",
+        "desc_len": 58,
+        "desc": "Meta system down.\nGetting Server Error in '/' Application."
+      },
+      {
+        "id": 37359,
+        "dataset": "spc",
+        "subject": "SPC - Catalog - Download",
+        "desc_len": 56,
+        "desc": "Need to add the Download Catalog to the catalog for SPC."
+      },
+      {
+        "id": 36744,
+        "dataset": "spc",
+        "subject": "Proposal Landing Page \u2013 Notes",
+        "desc_len": 71,
+        "desc": "Adding Notes to proposal landing page, please refer to attached ticket."
+      },
+      {
+        "id": 34039,
+        "dataset": "spc",
+        "subject": "SPC - Refresh",
+        "desc_len": 7,
+        "desc": "Refresh"
+      },
+      {
+        "id": 28090,
+        "dataset": "spc",
+        "subject": "Proposals not showing under \"All Proposals\"",
+        "desc_len": 34,
+        "desc": "Please see attached documentation."
+      },
+      {
+        "id": 22568,
+        "dataset": "spc",
+        "subject": "Update for Required fields",
+        "desc_len": 51,
+        "desc": "Please see attached for updates on required fields."
+      },
+      {
+        "id": 22244,
+        "dataset": "spc",
+        "subject": "Change Program Status Page",
+        "desc_len": 72,
+        "desc": "Include the program code and term on the change status page for programs"
+      },
+      {
+        "id": 22248,
+        "dataset": "spc",
+        "subject": "Change level on Live",
+        "desc_len": 71,
+        "desc": "Put the \u201cChange Level\u201d ability on the live site. It\u2019s currently on dev."
+      },
+      {
+        "id": 22237,
+        "dataset": "spc",
+        "subject": "All fields Comparison Report",
+        "desc_len": 75,
+        "desc": "Make the comparison report an all-fields report. Not just an outline report"
+      },
+      {
+        "id": 22235,
+        "dataset": "spc",
+        "subject": "Ad hoc saving reports",
+        "desc_len": 31,
+        "desc": "Ad hoc not saving reports still"
+      },
+      {
+        "id": 22238,
+        "dataset": "spc",
+        "subject": "Curricular Changes Report",
+        "desc_len": 71,
+        "desc": "Create a summary of curricular changes (like Porterville and Fullerton)"
+      }
+    ],
+    "A1_urgency_in_subject": [
+      {
+        "id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials"
+      },
+      {
+        "id": 44319,
+        "dataset": "spc",
+        "subject": "SPC URGENT API access"
+      },
+      {
+        "id": 43963,
+        "dataset": "spc",
+        "subject": "URGENT - any system or server changes?"
+      },
+      {
+        "id": 42931,
+        "dataset": "spc",
+        "subject": "URGENT Course Block Library, blocks missing"
+      },
+      {
+        "id": 42766,
+        "dataset": "spc",
+        "subject": "URGENT Catalog is not accessible"
+      },
+      {
+        "id": 42588,
+        "dataset": "spc",
+        "subject": "URGENT - Data retrieval - API - Cnet server issue?"
+      },
+      {
+        "id": 42255,
+        "dataset": "spc",
+        "subject": "SPC - Course Block Library Auto Update - Urgent"
+      },
+      {
+        "id": 42254,
+        "dataset": "spc",
+        "subject": "SPC - Program - Course Blocks - URGENT"
+      },
+      {
+        "id": 42253,
+        "dataset": "spc",
+        "subject": "SPC - Course Blocks Library - URGENT"
+      },
+      {
+        "id": 42140,
+        "dataset": "spc",
+        "subject": "SPC - URGENT -  System error; server down?"
+      },
+      {
+        "id": 41836,
+        "dataset": "spc",
+        "subject": "SPC - Course Numbers are not showing on the Reports - CRITCAL URGENT"
+      },
+      {
+        "id": 41835,
+        "dataset": "spc",
+        "subject": "SPC - Requisites - CRITICAL URGENT"
+      },
+      {
+        "id": 41829,
+        "dataset": "spc",
+        "subject": "SPC - Meta Production Issues -  URGENT"
+      },
+      {
+        "id": 41825,
+        "dataset": "spc",
+        "subject": "SPC - API - Documentation - URGENT"
+      },
+      {
+        "id": 41818,
+        "dataset": "spc",
+        "subject": "SPC - FOLLOW Up 41694 - URGENT"
+      },
+      {
+        "id": 41817,
+        "dataset": "spc",
+        "subject": "SPC - API - URGENT"
+      },
+      {
+        "id": 41694,
+        "dataset": "spc",
+        "subject": "SPC - Course Major Modification: BSC 2010HC - Honors Biology I Cellular Processes with Laboratory - URGENT"
+      },
+      {
+        "id": 41623,
+        "dataset": "spc",
+        "subject": "SPC - POS reports #218 out of order - URGENT"
+      },
+      {
+        "id": 39510,
+        "dataset": "spc",
+        "subject": "SPC - Catalog Program - Urgent"
+      },
+      {
+        "id": 38009,
+        "dataset": "spc",
+        "subject": "SPC - Program Outcomes - URGENT"
+      }
+    ],
+    "A6_ui_trouble_without_evidence": [
+      {
+        "id": 44466,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "desc": "In the Articulation AR Courses report, we would like to add a column for Total Credits awarded. This would pull from the Course Blocks page. There are a few articulations that have a variable credit amount. If this can be displayed, that's ideal, but if not, we'd like the maximum amount to display."
+      },
+      {
+        "id": 44465,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Programs",
+        "desc": "In the Articulation AR Programs report, we would like the following changes:\n1 - Change the title of Column D to Articulation Agreement Status (this is not urgent)\n2 - In Column J, have the report pull only the numerical CIP Code value (it is currently populating the text part), and then add 1 column to the right of J that pulls the text value for the CIP field (i.e. state-assigned degree name)\n3 "
+      },
+      {
+        "id": 43963,
+        "dataset": "spc",
+        "subject": "URGENT - any system or server changes?",
+        "desc": "Our Program Reports pulled pulled from Meta via API onto our website are no longer available. Has there been any system or server changes in the last day or two? When this happened before there  was a change on the Meta side and we had not been informed of the change. The error message is \"Server Error.  500 - Internal server error. There is a problem with the resource you are looking form and it "
+      },
+      {
+        "id": 43598,
+        "dataset": "spc",
+        "subject": "TR form should not have Porgram Outcomes",
+        "desc": "FIX needed ASAP please.\nFrom recent ticket #42714, we asked to have PLOs added to the Program of Study report (#218).  And to be applied to \"Programs\". That part is OK.\nHowever, the Transfer Plan program type is also including PLOs on the report. The TR form and menu/Form Sections tabs/pages does NOT have Program Outcomes.  So why is something showing on the POS report (218)?\nDoes the TR form have"
+      },
+      {
+        "id": 43482,
+        "dataset": "spc",
+        "subject": "PROGRAMS - PLO page - remove blank line",
+        "desc": "We are unable to remove a row in Programs > Program Outcomes page...\nIf rows exist with text, then unable to remove/delete any row. Please check on this allow us to be able to remove any row.\nIn the meantime, for program ADS-CT (980) > Program Outcomes, please remove/delete the last row which is blank.\nIf able to do sooner rather than later would be great since the Outcomes are on several student/"
+      },
+      {
+        "id": 42829,
+        "dataset": "spc",
+        "subject": "ADMIN REPORTS - add/change to AR report",
+        "desc": "ADD'L ADMIN REPORTS > Articulation AR articulated programs report:\nPlease add the following 2 requests to the above report.\nPrograms > Articulations type ...\n1.  From the State and Federal Requirements page > \u201cIs there a State mandated Agreement associated with this program?\u201d and blank/yes/no from the dropdown answer and to appear on the report\n     And, \"What are the total state minimum credits f"
+      },
+      {
+        "id": 42814,
+        "dataset": "spc",
+        "subject": "New Admin Rpt - PLO",
+        "desc": "Create new Additional Admin Report:\nA list of programs and their Program Learning Outcomes page for all active programs; list to include all programs (type-programs) and to also show any where Program Learning Outcome page is blank.\nName = Program Learning Outcomes\nPrograms > program type=programs > active status\nData to include:\nProgram Code\nProgram Name\nEffective Term\nPrograms Outcomes (all outc"
+      },
+      {
+        "id": 42789,
+        "dataset": "spc",
+        "subject": "PROGRAMS - Leadership Information Locked",
+        "desc": "We are trying to update the Program Leadership Information on some active program proposals, and it is not working. Please see attached ticket for details and video for issue. Please let me know if you have any questions.\nKind Regards,\nAndrijana"
+      },
+      {
+        "id": 42765,
+        "dataset": "spc",
+        "subject": "SYSTEM - New user permissions issue",
+        "desc": "New user approval positions won't save, please see attached ticket and video for details.\nPlease let me know if you need any further information.\nThank you,\nAndrijana Ekberg"
+      },
+      {
+        "id": 42714,
+        "dataset": "spc",
+        "subject": "Change POS rpt #218",
+        "desc": "Changes to Program of Study Report (#218):\nRemove from the report the section and field \u201cProgram Related Web Sites\u201d.\nAdd new section titled \u201cProgram Outcomes\u201d. (This should replace the above)\nAdd the Program Outcomes from the Program Outcomes page of the Program Form. The Outcomes should be listed in vertical order and numbered (see the Program Outcomes Report #278.\nIf the field is blank and no ou"
+      },
+      {
+        "id": 42223,
+        "dataset": "spc",
+        "subject": "PROGRAM Reactivate MGSED-TR (#1306)",
+        "desc": "We do not have a program reactivation proposal, would you be able to put back to \"active\" status program MGSED-TR (id #1306).  It was deactivated in error.\nIf this is not possible and I have to create a new transfer plan proposal, can I use the same program name and code (MGSED-TR)?\nIf you are able to change the status from historical back to active, what is an ETA for this to happen?\nThanks!\n~S"
+      },
+      {
+        "id": 42150,
+        "dataset": "spc",
+        "subject": "SPC -  Human Services Program of Study - API",
+        "desc": "One other issue came up too was that on our website looking at the HUMSVC-BS degree, it was displaying the wrong program.  Angela said they checked others and did\u2019nt notice any others that were wrong.\nAs you can see through the email thread, out Tech Support did not find anything why this was happening on our side.  Any idea if something caused this on your end?  Maybe related to the run-time erro"
+      },
+      {
+        "id": 41967,
+        "dataset": "spc",
+        "subject": "SPC - Notes Tab",
+        "desc": "know the Notes tab in the History page of the proposals is still a work-in-progress with an open ticket we had of the author field being required. But I wanted to bring this to your attention anyway because before the UI update, the Notes would automatically include the following information once added: Author, date, and time. However, upon adding a note to CHM 2045 none of this appears, only the "
+      },
+      {
+        "id": 41964,
+        "dataset": "spc",
+        "subject": "Courses missing number",
+        "desc": "Course number is missing from Approvals, Course proposals, and Course Reports. May be similar to 41836 & 41834.\nPlease fix ASAP.\nThanks!\n~S"
+      },
+      {
+        "id": 41919,
+        "dataset": "spc",
+        "subject": "SPC - Time Zone - Shows Mountain and not Eastern",
+        "desc": "I believe we have had several DST tickets to resolve this issue and it should be showing the time zone the customer is in.\nSPC is seeing mounting."
+      }
+    ],
+    "A2_vague_subject": [
+      {
+        "id": 41964,
+        "dataset": "spc",
+        "subject": "Courses missing number"
+      },
+      {
+        "id": 41400,
+        "dataset": "spc",
+        "subject": "SPC - Co-Contributors"
+      },
+      {
+        "id": 40780,
+        "dataset": "spc",
+        "subject": "Ind Cert file"
+      },
+      {
+        "id": 40010,
+        "dataset": "spc",
+        "subject": "Refresh Sandbox"
+      },
+      {
+        "id": 39998,
+        "dataset": "spc",
+        "subject": "SPC - Cloning"
+      },
+      {
+        "id": 39591,
+        "dataset": "spc",
+        "subject": "Re: Codes & Dates 0630 & 0640 Proposals"
+      },
+      {
+        "id": 39037,
+        "dataset": "spc",
+        "subject": "SPC -"
+      },
+      {
+        "id": 38495,
+        "dataset": "spc",
+        "subject": "SPC - Catalog"
+      },
+      {
+        "id": 38314,
+        "dataset": "spc",
+        "subject": "Meta down"
+      },
+      {
+        "id": 38301,
+        "dataset": "spc",
+        "subject": "SPC - Workflows"
+      },
+      {
+        "id": 38142,
+        "dataset": "spc",
+        "subject": "SPC Reports"
+      },
+      {
+        "id": 37872,
+        "dataset": "spc",
+        "subject": "SPC - Handbook"
+      },
+      {
+        "id": 37436,
+        "dataset": "spc",
+        "subject": "Re: COURSES - Hide Course Materials Tab"
+      },
+      {
+        "id": 37413,
+        "dataset": "spc",
+        "subject": "SPC ZenDesk Tickets"
+      },
+      {
+        "id": 37379,
+        "dataset": "spc",
+        "subject": "Re: Proposal Landing Page \u2013 Notes"
+      },
+      {
+        "id": 37331,
+        "dataset": "spc",
+        "subject": "SPC - Lookups"
+      },
+      {
+        "id": 37260,
+        "dataset": "spc",
+        "subject": "V2 access"
+      },
+      {
+        "id": 37190,
+        "dataset": "spc",
+        "subject": "V2 system blocked"
+      },
+      {
+        "id": 37066,
+        "dataset": "spc",
+        "subject": "Re: SPC - Embedded CT not showing"
+      },
+      {
+        "id": 36853,
+        "dataset": "spc",
+        "subject": "Re: SPC - Comparison Report"
+      }
+    ],
+    "A4_forwarded_email_desc": [
+      {
+        "id": 41961,
+        "dataset": "spc",
+        "subject": "Re: [CurriQunet Ticket System] Re: PROGRAMS \u2013 Pathways not savings \u2013 missing courses CS259",
+        "desc": "This is a follow-up to your previous request #41942 \"PROGRAMS \u2013 Pathways not sa...\"\nI will get the guys to look at this ASAP.\nNatalie Rasmussen\nSenior Project Manager\n[cid:2407372c-a0a6-4722-937a-9d32c1fa0002]\n________________________________\nFrom: Shirley Boyette\nSent: Thursday, January 9, 2025 1:35 PM\nTo: CurriQunet Ticket System\nCc: Natalie Rasm"
+      }
+    ],
+    "A5_solution_smuggling": [
+      {
+        "id": 41029,
+        "dataset": "spc",
+        "subject": "(NORMAL for M4)   Remove Job Oppts from POS Report #218",
+        "snippet": "etween the above & below sections.  It is OK to keep the field in the proposal, just remove from the report.\nThanks!\n~S\nEX:  https://stpetersburg.curriqunet.com/DynamicReports/AllFieldsReportByEntity/1090?entity"
+      },
+      {
+        "id": 41392,
+        "dataset": "craig",
+        "subject": "Remove Word for Fixed Test",
+        "snippet": " on the Program Requirements report and is at the bottom of the Narrative page. Please just remove the word \"Intersegmental\" where it currently says \"The California Intersegmental General Education Transfer Curr"
+      }
+    ]
+  }
+}
