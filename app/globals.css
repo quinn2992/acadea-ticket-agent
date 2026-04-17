@@ -1,3 +1,24 @@
+:root {
+  /* Acadea brand palette */
+  --acadea-teal: #195259;
+  --acadea-moss: #0d2426;
+  --acadea-orange: #f4380c;
+  --acadea-indigo: #628aa0;
+  --acadea-aluminum: #d9dfe8;
+  --acadea-mint: #b5e1e5;
+  --acadea-cream: #f5fcfc;
+
+  /* Semantic tokens */
+  --bg: var(--acadea-cream);
+  --surface: #ffffff;
+  --text: var(--acadea-moss);
+  --text-muted: #4a6a6e;
+  --border: #dce5e6;
+  --border-strong: #c6d4d6;
+  --shadow-sm: 0 1px 2px rgba(13, 36, 38, 0.04), 0 1px 1px rgba(13, 36, 38, 0.03);
+  --shadow-md: 0 4px 16px rgba(13, 36, 38, 0.06), 0 1px 2px rgba(13, 36, 38, 0.04);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,11 +27,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+  font-family: var(--font-dm-sans), -apple-system, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif;
-  background: #f7f7f5;
-  color: #1a1a1a;
+  background: var(--bg);
+  color: var(--text);
   height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #__next,
@@ -30,4 +53,25 @@ pre,
 code {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono",
     monospace;
+}
+
+a {
+  color: var(--acadea-teal);
+}
+
+a:hover {
+  color: var(--acadea-orange);
+}
+
+button:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--acadea-orange);
+  outline-offset: 2px;
+}
+
+/* Subtle caret pulse for streaming */
+@keyframes acadea-blink {
+  0%, 60% { opacity: 0.55; }
+  30% { opacity: 0.15; }
 }
