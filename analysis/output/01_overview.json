@@ -1,0 +1,75 @@
+{
+  "spc": {
+    "n_tickets": 606,
+    "statuses": {
+      "open": 12,
+      "closed": 593,
+      "pending": 1
+    },
+    "priorities": {
+      "normal": 272,
+      "high": 160,
+      "urgent": 117,
+      "null": 25,
+      "low": 32
+    },
+    "total_comments": 4060,
+    "avg_comments_per_ticket": 6.7,
+    "median_comments_per_ticket": 5.0,
+    "max_comments": 50,
+    "avg_description_chars": 464.6,
+    "median_description_chars": 306.0,
+    "empty_or_near_empty_descriptions": 1,
+    "customer_comments": 1278,
+    "support_comments": 2782,
+    "customer_comment_ratio": 0.315
+  },
+  "craig": {
+    "n_tickets": 199,
+    "statuses": {
+      "open": 12,
+      "closed": 187
+    },
+    "priorities": {
+      "normal": 80,
+      "high": 41,
+      "low": 8,
+      "null": 3,
+      "urgent": 67
+    },
+    "total_comments": 1331,
+    "avg_comments_per_ticket": 6.69,
+    "median_comments_per_ticket": 5,
+    "max_comments": 45,
+    "avg_description_chars": 378.7,
+    "median_description_chars": 269,
+    "empty_or_near_empty_descriptions": 0,
+    "customer_comments": 507,
+    "support_comments": 824,
+    "customer_comment_ratio": 0.381
+  },
+  "armando": {
+    "n_tickets": 43,
+    "statuses": {
+      "open": 4,
+      "pending": 1,
+      "closed": 38
+    },
+    "priorities": {
+      "normal": 29,
+      "high": 9,
+      "null": 3,
+      "urgent": 2
+    },
+    "total_comments": 342,
+    "avg_comments_per_ticket": 7.95,
+    "median_comments_per_ticket": 6,
+    "max_comments": 28,
+    "avg_description_chars": 372.3,
+    "median_description_chars": 330,
+    "empty_or_near_empty_descriptions": 0,
+    "customer_comments": 103,
+    "support_comments": 239,
+    "customer_comment_ratio": 0.301
+  }
+}

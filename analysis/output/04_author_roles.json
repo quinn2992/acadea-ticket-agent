@@ -1,0 +1,93 @@
+{
+  "spc": {
+    "n_tickets": 606,
+    "customer_authored_first_comment": 433,
+    "non_customer_authored_first_comment": 173,
+    "no_comments": 0,
+    "percent_customer_authored": 71.5,
+    "top_non_customer_authors": [
+      [
+        372620713451,
+        129
+      ],
+      [
+        31700725,
+        20
+      ],
+      [
+        396363028,
+        10
+      ],
+      [
+        69957426,
+        4
+      ],
+      [
+        45084050335515,
+        2
+      ],
+      [
+        15973853,
+        2
+      ],
+      [
+        713607957,
+        1
+      ],
+      [
+        30411993,
+        1
+      ],
+      [
+        665148736,
+        1
+      ],
+      [
+        171751616,
+        1
+      ]
+    ]
+  },
+  "craig": {
+    "n_tickets": 199,
+    "customer_authored_first_comment": 171,
+    "non_customer_authored_first_comment": 28,
+    "no_comments": 0,
+    "percent_customer_authored": 85.9,
+    "top_non_customer_authors": [
+      [
+        372620713451,
+        11
+      ],
+      [
+        396363028,
+        9
+      ],
+      [
+        377410769,
+        7
+      ],
+      [
+        7820427861019,
+        1
+      ]
+    ]
+  },
+  "armando": {
+    "n_tickets": 43,
+    "customer_authored_first_comment": 33,
+    "non_customer_authored_first_comment": 10,
+    "no_comments": 0,
+    "percent_customer_authored": 76.7,
+    "top_non_customer_authors": [
+      [
+        372620713451,
+        8
+      ],
+      [
+        394091086,
+        2
+      ]
+    ]
+  }
+}

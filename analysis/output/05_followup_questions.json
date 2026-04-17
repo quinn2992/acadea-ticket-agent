@@ -1,0 +1,1304 @@
+{
+  "topic_clarification_rates": {
+    "Reports": {
+      "tickets_in_topic": 321,
+      "tickets_where_first_support_reply_was_a_question": 117,
+      "percent_clarification_needed": 36.4,
+      "total_question_sentences_collected": 243
+    },
+    "Courses": {
+      "tickets_in_topic": 119,
+      "tickets_where_first_support_reply_was_a_question": 57,
+      "percent_clarification_needed": 47.9,
+      "total_question_sentences_collected": 94
+    },
+    "CIP/Lookup": {
+      "tickets_in_topic": 10,
+      "tickets_where_first_support_reply_was_a_question": 3,
+      "percent_clarification_needed": 30.0,
+      "total_question_sentences_collected": 3
+    },
+    "Other": {
+      "tickets_in_topic": 43,
+      "tickets_where_first_support_reply_was_a_question": 16,
+      "percent_clarification_needed": 37.2,
+      "total_question_sentences_collected": 19
+    },
+    "Programs": {
+      "tickets_in_topic": 299,
+      "tickets_where_first_support_reply_was_a_question": 128,
+      "percent_clarification_needed": 42.8,
+      "total_question_sentences_collected": 208
+    },
+    "Admin": {
+      "tickets_in_topic": 5,
+      "tickets_where_first_support_reply_was_a_question": 3,
+      "percent_clarification_needed": 60.0,
+      "total_question_sentences_collected": 3
+    },
+    "Catalog": {
+      "tickets_in_topic": 12,
+      "tickets_where_first_support_reply_was_a_question": 3,
+      "percent_clarification_needed": 25.0,
+      "total_question_sentences_collected": 3
+    },
+    "Workflow": {
+      "tickets_in_topic": 16,
+      "tickets_where_first_support_reply_was_a_question": 8,
+      "percent_clarification_needed": 50.0,
+      "total_question_sentences_collected": 11
+    },
+    "Search": {
+      "tickets_in_topic": 10,
+      "tickets_where_first_support_reply_was_a_question": 6,
+      "percent_clarification_needed": 60.0,
+      "total_question_sentences_collected": 12
+    },
+    "System": {
+      "tickets_in_topic": 7,
+      "tickets_where_first_support_reply_was_a_question": 3,
+      "percent_clarification_needed": 42.9,
+      "total_question_sentences_collected": 5
+    },
+    "Articulations": {
+      "tickets_in_topic": 4,
+      "tickets_where_first_support_reply_was_a_question": 1,
+      "percent_clarification_needed": 25.0,
+      "total_question_sentences_collected": 0
+    },
+    "Units/Hours": {
+      "tickets_in_topic": 2,
+      "tickets_where_first_support_reply_was_a_question": 1,
+      "percent_clarification_needed": 50.0,
+      "total_question_sentences_collected": 1
+    }
+  },
+  "top_question_heads_overall": [
+    [
+      "you should be able to see the changes in a few moments",
+      14
+    ],
+    [
+      "see image example below",
+      13
+    ],
+    [
+      "you will be notified when this has passed testing and is being",
+      6
+    ],
+    [
+      "did i miss anything that is being requested that i did not",
+      5
+    ],
+    [
+      "craig just to confirm what all is being requested in this support",
+      3
+    ],
+    [
+      "please provide a screenshot of an example",
+      3
+    ],
+    [
+      "as in first screenshot you can see 2 spc certs noted",
+      2
+    ],
+    [
+      "however the 2nd screenshot shows where the course info has been entered",
+      2
+    ],
+    [
+      "is there anyway someone can look at everything that has to do",
+      2
+    ],
+    [
+      "the first 2 represent how trying to clear out and remove other",
+      2
+    ],
+    [
+      "do you mind checking on this",
+      2
+    ],
+    [
+      "why is this",
+      2
+    ],
+    [
+      "you will be notified when it has passed testing",
+      2
+    ],
+    [
+      "there were some database changes that were not on your live system",
+      2
+    ],
+    [
+      "please note that ive received the same 500level errors when stepping thru",
+      1
+    ],
+    [
+      "test 200 okay dep2004 live 500 an internal error occcured please reference",
+      1
+    ],
+    [
+      "dep2102 live 500 an internal error occcured please reference requestid 8000300c0001df00b63f84710c7967bb when",
+      1
+    ],
+    [
+      "clp2140 live 500 an internal error occcured please reference requestid 8000300c0001df00b63f84710c7967bb when",
+      1
+    ],
+    [
+      "the guid return codes mean nothing to us but the type of",
+      1
+    ],
+    [
+      "ariel im not for sure what you mean by teachout status",
+      1
+    ],
+    [
+      "not sure how creating a new program proposal type would help",
+      1
+    ],
+    [
+      "where this field is on the program form you can pull it",
+      1
+    ],
+    [
+      "httpsacadeazendeskcomattachmentstokenvee7kfispfevyhipfdw1jwqscnameimagepng httpsacadeazendeskcomattachmentstokenqhlyvczse4who4ujfvutgf8bhnameimagepng where this field is on the program form we can",
+      1
+    ],
+    [
+      "just to confirm you want this field active status from page codes",
+      1
+    ],
+    [
+      "which column in both reports do you want this field to display",
+      1
+    ],
+    [
+      "ariel just to confirm in the admin report articulation ar courses you",
+      1
+    ],
+    [
+      "this means that value would duplicate for every single course in a",
+      1
+    ],
+    [
+      "see image example below so for this program it would display total",
+      1
+    ],
+    [
+      "that florida cip code title of it security has the code 1511100307",
+      1
+    ],
+    [
+      "this seems incorrect to me or am i misunderstanding how this column",
+      1
+    ],
+    [
+      "ariel just to confirm what all is being requested in this support",
+      1
+    ],
+    [
+      "andrijana i need to know the exact program that youre looking in",
+      1
+    ],
+    [
+      "httpsacadeazendeskcomattachmentstokenmv17sfmtafksc2kgsdrlasdbtnameimagepng does this help complete this ticket or is the program youre",
+      1
+    ],
+    [
+      "does this complete this ticket",
+      1
+    ],
+    [
+      "hi angela we are looking into this right now and will let",
+      1
+    ],
+    [
+      "shirley is this new status ic approved represent our in review status",
+      1
+    ],
+    [
+      "httpsacadeazendeskcomattachmentstokenthnanegrrpbzsiuxdd7x0hmainameimagepng what user that is logged in that is not seeing this",
+      1
+    ],
+    [
+      "yes when you create a new draft program it will have the",
+      1
+    ],
+    [
+      "knowing the above are you still wanting to use this new request",
+      1
+    ],
+    [
+      "if this is a functionality you would like to explore through custom",
+      1
+    ],
+    [
+      "please send spc a new data dictionary",
+      1
+    ],
+    [
+      "just to confirm what is being requested on the program of study",
+      1
+    ],
+    [
+      "when i first opened the proposal it was like this",
+      1
+    ],
+    [
+      "the next day when i looked at it it was back to",
+      1
+    ],
+    [
+      "once all seems good would you please have a new industry certification",
+      1
+    ],
+    [
+      "this ticket is again a perfect example",
+      1
+    ],
+    [
+      "however and this piece is on us where the effective term is",
+      1
+    ],
+    [
+      "if it cant be fixed today then at least put it back",
+      1
+    ],
+    [
+      "when they hit delete and select continue it doesn o do anything",
+      1
+    ],
+    [
+      "we can change this back to the field course block title which",
+      1
+    ],
+    [
+      "httpsgovernetzendeskcomattachmentstokenbctkgnlwfi2dcmmcihrxmxodynameimagepng do you want this",
+      1
+    ],
+    [
+      "httpsgovernetzendeskcomattachmentstoken53qhzntkcekztdawadjwkcvmdnameimagepng also if we make this change you may have to go",
+      1
+    ],
+    [
+      "shirley should these new award types only show for articulation program type",
+      1
+    ],
+    [
+      "if you have any questions please let me know",
+      1
+    ],
+    [
+      "that is why when you change it and then leave and go",
+      1
+    ],
+    [
+      "workaround for the workflow action target status doesnt save when an option",
+      1
+    ],
+    [
+      "it sounds like you want the action target status to be cs",
+      1
+    ],
+    [
+      "is this correct",
+      1
+    ],
+    [
+      "should we be doing this configuration for any other workflow versions",
+      1
+    ],
+    [
+      "if so we would need to know the exact version exact level",
+      1
+    ],
+    [
+      "as for being able to get this done by 05262025 i can",
+      1
+    ],
+    [
+      "could you confirm for me whether this is resolved or whether youre",
+      1
+    ],
+    [
+      "note i remove the position from your production site where i dont",
+      1
+    ],
+    [
+      "httpsgovernetzendeskcomattachmentstokenddckaqpyuwseghpey1b65uo8tnameimagepng the difference between my production screenshot and your video of your",
+      1
+    ],
+    [
+      "we can tell by the not secure in your url video",
+      1
+    ],
+    [
+      "normally when a client tries to reach our site if they are",
+      1
+    ],
+    [
+      "where im not able to reproduce the issue please give that a",
+      1
+    ],
+    [
+      "shirley in the program page course blocks in button edit courses in",
+      1
+    ],
+    [
+      "it doesnt display the rte field non course requirement because the display",
+      1
+    ],
+    [
+      "shirley for this new fl cip what national cip code does this",
+      1
+    ],
+    [
+      "in order to guaranty accuracy when making an admin report i will",
+      1
+    ],
+    [
+      "i see some items that does not match name of any field",
+      1
+    ],
+    [
+      "shirley asked for a query box on the course block library that",
+      1
+    ],
+    [
+      "yesterday i updated digas id1580 and left a pathway note when i",
+      1
+    ],
+    [
+      "i can send this in as a ticket but wanted to check",
+      1
+    ],
+    [
+      "hello andrijana i have updated the program pathway report to ensure that",
+      1
+    ],
+    [
+      "it is not finished but wanted you to take a look and",
+      1
+    ],
+    [
+      "add a query text that shows what the block will look like",
+      1
+    ],
+    [
+      "she needs a report or a query text like we do for",
+      1
+    ],
+    [
+      "the titles that when she goes to pulls them does not match",
+      1
+    ]
+  ],
+  "samples_by_topic": {
+    "Courses": [
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "question": "Please note that I\u2019ve received the same 500-level errors when stepping thru the code, but everything from this point in the email is a reference to Postman."
+      },
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "question": "TEST: 200 - Okay DEP2004 LIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support."
+      },
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "question": "DEP2102 LIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support."
+      },
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "question": "CLP2140 LIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support."
+      },
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "question": "The GUID return codes mean nothing to us, but the type of error message we\u2019re seeing associated with them in the test environment suggest an issue with at the CN database level (which we have no control over)."
+      },
+      {
+        "ticket_id": 42752,
+        "dataset": "spc",
+        "subject": "Course Block Library - not showing Non-course requirement",
+        "question": "Shirley, In the program page \"**Course Blocks**\", in button \"**Edit Courses in Requirements**\", and added a \"**Non-Course Requirement**\" record, when the record is not expanded, it displays the field \"**Title**\"."
+      },
+      {
+        "ticket_id": 42752,
+        "dataset": "spc",
+        "subject": "Course Block Library - not showing Non-course requirement",
+        "question": "It doesn't display the RTE field \"**Non Course Requirement**\" because the display for the record when not expanded doesn't support formatting."
+      },
+      {
+        "ticket_id": 41835,
+        "dataset": "spc",
+        "subject": "SPC - Requisites - CRITICAL URGENT",
+        "question": "Can you and maybe Heather show me how to set up these requisites?"
+      },
+      {
+        "ticket_id": 41835,
+        "dataset": "spc",
+        "subject": "SPC - Requisites - CRITICAL URGENT",
+        "question": "Please send me screenshots."
+      },
+      {
+        "ticket_id": 41834,
+        "dataset": "spc",
+        "subject": "Approvals - course number and org missing",
+        "question": "Hello Shirley, The Organization column only shows for Programs and the Subject Column only shows for courses as that is how it has always been."
+      },
+      {
+        "ticket_id": 41834,
+        "dataset": "spc",
+        "subject": "Approvals - course number and org missing",
+        "question": "Please let me know if I understand the issues noted correctly."
+      },
+      {
+        "ticket_id": 41818,
+        "dataset": "spc",
+        "subject": "SPC - FOLLOW Up 41694 - URGENT",
+        "question": "And\u2026 When creating a new course, the \u201cSystem Course Number\u201d (auto-populates) is NOT indicating the correct course number when selecting both a lab or combined component and selecting yes to an honors course."
+      },
+      {
+        "ticket_id": 41817,
+        "dataset": "spc",
+        "subject": "SPC - API - URGENT",
+        "question": "Please let me know status."
+      },
+      {
+        "ticket_id": 41817,
+        "dataset": "spc",
+        "subject": "SPC - API - URGENT",
+        "question": "Did something change here too?"
+      },
+      {
+        "ticket_id": 41817,
+        "dataset": "spc",
+        "subject": "SPC - API - URGENT",
+        "question": "![](https://governet.zendesk.com/attachments/token/UohhHdRiT6J7hheh3p4o8bOfA/?name=inlineImage.png) Could it have to do with this\u2026the SYSTEM COURSE NUMBER field that auto-populates (and is I think is new in V4)?"
+      },
+      {
+        "ticket_id": 41817,
+        "dataset": "spc",
+        "subject": "SPC - API - URGENT",
+        "question": "Which this example is the same as in the ticket mentioned at the top."
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "I was going to do one more example (changing all to a B) and now the Min grade field is showing in the pre/pre&co fields."
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "What\u2019s up with this?"
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "And it was missing in the Sandbox too (from the other follow up email) (screenshot of Maverick at the very bottom)."
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "Did someone make changes?"
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "I\u2019m in Meta using a test course MAN 9999 (#9585), and notice two issues: When selecting NO \u2013 Do all courses listed in this requisite require a minimum passing grade?, it is automatically adding \u201cwith a minimum grade of C\u201d to all the courses."
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "When entering a course for Prerequisite or Pre-or Co-requisite, the minimum grade field is missing now."
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "subject": "SPC - ",
+        "question": "It use to be there\u2026.where did it go?"
+      },
+      {
+        "ticket_id": 37588,
+        "dataset": "spc",
+        "subject": "Re: SPC - Courses > Requisites > PARENTHESES ERROR - URGENT",
+        "question": "Parens are working, however, spacing still is not...especially when requisite is using the non-course requirement field."
+      },
+      {
+        "ticket_id": 36577,
+        "dataset": "spc",
+        "subject": "SPC - Approval Workflows",
+        "question": "Why is this?"
+      },
+      {
+        "ticket_id": 36577,
+        "dataset": "spc",
+        "subject": "SPC - Approval Workflows",
+        "question": "Shouldn\u2019t this be blank until a color group has actually been assigned?"
+      },
+      {
+        "ticket_id": 36577,
+        "dataset": "spc",
+        "subject": "SPC - Approval Workflows",
+        "question": "Why is this?"
+      },
+      {
+        "ticket_id": 36489,
+        "dataset": "spc",
+        "subject": "SPC - Building Pathways",
+        "question": "When we are building the Pathways and say the course we need is in DRAFT, will it automatically keep the course in the pathway as its status changes throughout the workflow and then turn ACTIVE?"
+      },
+      {
+        "ticket_id": 36489,
+        "dataset": "spc",
+        "subject": "SPC - Building Pathways",
+        "question": "However, on the Pathway, when adding the DRAFT course yesterday, the sequence looked ok, but today, since the course is now IN-REVIEW, the sequence row is blank and the course # is also blank."
+      },
+      {
+        "ticket_id": 36489,
+        "dataset": "spc",
+        "subject": "SPC - Building Pathways",
+        "question": "Did the above make sense?"
+      }
+    ],
+    "Reports": [
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "Ariel, I'm not for sure what you mean by \"**teach-out status**\"."
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "Not sure how creating a new program proposal type would help."
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "Where this field is on the program form, you can pull it in your program search, by using the \"**Output Fields**\" option, under that option find the page the field exists on, then check it, click **Search**, and you will see that field on the program search page."
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "![](https://acadea.zendesk.com/attachments/token/Vee7kfisPfevYhIpFDW1JWqsc/?name=image.png) ![](https://acadea.zendesk.com/attachments/token/QhlyVcZsE4WhO4uJFvUTgf8BH/?name=image.png) Where this field is on the program form, we can also add it to reports if needed."
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "Just to confirm, you want this field \"**Active Status**\" from page \"**Codes and Dates**\" added to the admin reports \"**Articulation AR articulated programs**\" and \"**Articulation AR courses**\", correct?"
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "See image example below."
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "question": "Which column in both reports do you want this field to display in?"
+      },
+      {
+        "ticket_id": 44466,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "question": "Ariel, Just to confirm, in the admin report \"**Articulation AR courses**\", you want a new column, and in that new column display the program total units from the program \"**Course Blocks**\" page, correct?"
+      },
+      {
+        "ticket_id": 44466,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "question": "This means that value would duplicate for every single course in a program on this report per that program, correct?"
+      },
+      {
+        "ticket_id": 44466,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "question": "See image example below, so for this program, it would display total units of \"**16**\" 8 times for each of the courses in this program in this page, is that correct?"
+      },
+      {
+        "ticket_id": 44465,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Programs",
+        "question": "That **Florida CIP Code** title of \"**IT Security**\" has the code \"**1511100307**\" which does not match what is in that other program ID (1498), nor does the title match, and I'm not seeing that field \"**Florida CIP Code**\" for program ID (940) in any of its pages."
+      },
+      {
+        "ticket_id": 44465,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Programs",
+        "question": "This seems incorrect to me, or am I misunderstanding how this column \"**J**\" works/displays?"
+      },
+      {
+        "ticket_id": 44465,
+        "dataset": "spc",
+        "subject": "Additional Admin Report - Articulation AR Programs",
+        "question": "See image example below."
+      },
+      {
+        "ticket_id": 43825,
+        "dataset": "spc",
+        "subject": "Program PW Rpt ID# 239 PDF layout change",
+        "question": "If this is a functionality you would like to explore through custom development, please let me know so I can create a statement of work."
+      },
+      {
+        "ticket_id": 43598,
+        "dataset": "spc",
+        "subject": "TR form should not have Porgram Outcomes",
+        "question": "Just to confirm what is being requested, on the \"**Program of Study**\" report, section \"**Program Learning Outcomes**\", hide this section when program outcomes do not exist in the program form like **...Transfer Plan** forms, correct?"
+      },
+      {
+        "ticket_id": 43301,
+        "dataset": "spc",
+        "subject": "SPC - REPORTS - Program of Study & Comparison - Program - Follow up - #43221",
+        "question": "This ticket is (again) a perfect example."
+      },
+      {
+        "ticket_id": 43301,
+        "dataset": "spc",
+        "subject": "SPC - REPORTS - Program of Study & Comparison - Program - Follow up - #43221",
+        "question": "However, and this piece is on us, where the effective term is noted, the text (Fall 2022 (610)) should be the same effective term of that specific program."
+      },
+      {
+        "ticket_id": 43301,
+        "dataset": "spc",
+        "subject": "SPC - REPORTS - Program of Study & Comparison - Program - Follow up - #43221",
+        "question": "(If it can\u2019t be fixed today, then at least put it back the way it was and then have someone fix it on Monday.) Please let me know how soon this can be completed, and how this process will work going forward."
+      },
+      {
+        "ticket_id": 42814,
+        "dataset": "spc",
+        "subject": "New Admin Rpt - PLO",
+        "question": "If you have any questions, please let me know."
+      },
+      {
+        "ticket_id": 42724,
+        "dataset": "spc",
+        "subject": "REPORTS - Create New Course PS Report",
+        "question": "In order to guaranty accuracy when making an admin report, I will need to know the name of the columns in the admin report are to be matched to the names of the fields on the forms, preferably with the name of the tab those fields are on."
+      },
+      {
+        "ticket_id": 42724,
+        "dataset": "spc",
+        "subject": "REPORTS - Create New Course PS Report",
+        "question": "I see some items that does not match name of any field in the form, for example there is no field with the name \"Changes to\""
+      },
+      {
+        "ticket_id": 42530,
+        "dataset": "spc",
+        "subject": "SPC - Pathway Notes",
+        "question": "Yesterday, I updated DIG-AS (ID:1580) and left a pathway note, when I checked that today it was gone."
+      },
+      {
+        "ticket_id": 42530,
+        "dataset": "spc",
+        "subject": "SPC - Pathway Notes",
+        "question": "I can send this in as a ticket but wanted to check if there anything happening in the background that could be causing this?"
+      },
+      {
+        "ticket_id": 42254,
+        "dataset": "spc",
+        "subject": "SPC - Program - Course Blocks - URGENT",
+        "question": "Add a query text that shows what the block will look like in th report as they are building like we do for the requisites."
+      },
+      {
+        "ticket_id": 42253,
+        "dataset": "spc",
+        "subject": "SPC - Course Blocks Library - URGENT",
+        "question": "She needs a report or a query text like we do for requisites that shows what the Course block Library will look like in the report as she is building them."
+      },
+      {
+        "ticket_id": 42253,
+        "dataset": "spc",
+        "subject": "SPC - Course Blocks Library - URGENT",
+        "question": "The titles that when she goes to pulls them does not match what she builds them - Look at the library ID 1704AA General Education Requirement Fa25 it came over as AA General Education Requirements - This is making the library useless and very hard to use and pull in what you need."
+      },
+      {
+        "ticket_id": 42150,
+        "dataset": "spc",
+        "subject": "SPC -  Human Services Program of Study - API",
+        "question": "Any idea if something caused this on your end?"
+      },
+      {
+        "ticket_id": 42150,
+        "dataset": "spc",
+        "subject": "SPC -  Human Services Program of Study - API",
+        "question": "Maybe related to the run-time errors?"
+      },
+      {
+        "ticket_id": 42150,
+        "dataset": "spc",
+        "subject": "SPC -  Human Services Program of Study - API",
+        "question": "Could this be an issues withthe API on curriQunet's side?"
+      },
+      {
+        "ticket_id": 41996,
+        "dataset": "spc",
+        "subject": "Need info for new program type/form - Industy Certs",
+        "question": "What do you want the three new program proposal types for **Industry Certifications** to be named?"
+      }
+    ],
+    "Programs": [
+      {
+        "ticket_id": 44464,
+        "dataset": "spc",
+        "subject": "Academic Pathways Instructional Text",
+        "question": "Ariel, Just to confirm what all is being requested in this support ticket, see the below understanding."
+      },
+      {
+        "ticket_id": 44464,
+        "dataset": "spc",
+        "subject": "Academic Pathways Instructional Text",
+        "question": "Did I miss anything that is being requested that I did not state in the above?"
+      },
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "question": "Andrijana, I need to know the exact program that you're looking in, so I know which program form version needs to be refreshed."
+      },
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "question": "See image example below."
+      },
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "question": "![](https://acadea.zendesk.com/attachments/token/Mv17sfmTAfksc2KGSdRlAsdBT/?name=image.png) Does this help complete this ticket, or is the program you're looking at using a different form version?"
+      },
+      {
+        "ticket_id": 43926,
+        "dataset": "spc",
+        "subject": "SYSTEM - New Academic Org Issue",
+        "question": "See image example below."
+      },
+      {
+        "ticket_id": 43926,
+        "dataset": "spc",
+        "subject": "SYSTEM - New Academic Org Issue",
+        "question": "![](https://acadea.zendesk.com/attachments/token/ThNaNeGRrpBZsiUxDD7x0hMAI/?name=image.png) What user that is logged in that is not seeing this option for this course?"
+      },
+      {
+        "ticket_id": 43902,
+        "dataset": "spc",
+        "subject": "SPC - Programs - Move programs to current active form template",
+        "question": "Yes, when you create a new draft program it will have the changes where they are using the current active form version."
+      },
+      {
+        "ticket_id": 43902,
+        "dataset": "spc",
+        "subject": "SPC - Programs - Move programs to current active form template",
+        "question": "Knowing the above, are you still wanting to use this new request to move all existing programs that are not historical that are on an older program form version to the current active form versions, even knowing the above consequences?"
+      },
+      {
+        "ticket_id": 43458,
+        "dataset": "spc",
+        "subject": "SPC - Program - Discpline - RTE Showing as text",
+        "question": "When I first opened the proposal, it was like this."
+      },
+      {
+        "ticket_id": 43458,
+        "dataset": "spc",
+        "subject": "SPC - Program - Discpline - RTE Showing as text",
+        "question": "The next day when I looked at it, it was back to normal RTE."
+      },
+      {
+        "ticket_id": 43379,
+        "dataset": "spc",
+        "subject": "SPC - Program - Ind Cert updates to form 08282025",
+        "question": "Once all seems good, would you please have a new Industry Certification proposal opened for all the Ind Certs in the Lookup Manager table?"
+      },
+      {
+        "ticket_id": 42931,
+        "dataset": "spc",
+        "subject": "URGENT Course Block Library, blocks missing",
+        "question": "We can change this back to the field \"**Course Block Title**\" which will then give you your unique names back."
+      },
+      {
+        "ticket_id": 42931,
+        "dataset": "spc",
+        "subject": "URGENT Course Block Library, blocks missing",
+        "question": "![](https://governet.zendesk.com/attachments/token/BCTKgnlWFi2dCmMcIHRxMxoDy/?name=image.png) Do you want this?"
+      },
+      {
+        "ticket_id": 42931,
+        "dataset": "spc",
+        "subject": "URGENT Course Block Library, blocks missing",
+        "question": "![](https://governet.zendesk.com/attachments/token/53qhZNTKCEkztdAwaDjWKCVMd/?name=image.png) Also, if we make this change, you may have to go update that title display in programs and/or course block libraries where exists if needed."
+      },
+      {
+        "ticket_id": 42835,
+        "dataset": "spc",
+        "subject": "SYSTEM and ARs - award types",
+        "question": "Shirley, Should these new award types only show for articulation program type, or should they also display for normal programs, transfer plans programs, and industries programs?"
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "That is why when you change it and then leave and go back to it, it goes back to what it was before."
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "Workaround for the workflow action \u201c**Target Status**\u201d doesn\u2019t save when an option is selected."
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "It sounds like you want the action \"**Target Status**\" to be \"**CS Approved**\" for the action \"**Disapprove**\" at the step/level \"**Level 04**\" when user/position \"**Curriculum Coordinator**\" takes this action."
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "Is this correct?"
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "Should we be doing this configuration for any other workflow versions?"
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "If so, we would need to know the exact version, exact level, exact position, exact action taken, and exact status to change too when that specific action is taken."
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "question": "As for being able to get this done by 05/26/2025, I can set this ticket priority to high, but I can't gurantee it will be done by then where we have a backlog of support tickets, but we will try to get to it as soon as possible."
+      },
+      {
+        "ticket_id": 42645,
+        "dataset": "spc",
+        "subject": "SPC - Program - Course Blocks",
+        "question": "Shirley asked for a query box on the Course Block Library that she could see what the Course Block Library looks like but we also added it to the CourseBlocks in the Programs and it is confusing and needs to be removed from the Programs."
+      },
+      {
+        "ticket_id": 42451,
+        "dataset": "spc",
+        "subject": "Pathway Embedded CTs Not Choosing Active Versions",
+        "question": "Hello Andrijana, I have updated the Program Pathway report to ensure that when you lick on the embedded CTs that it will link to the correct program that is active."
+      },
+      {
+        "ticket_id": 42311,
+        "dataset": "spc",
+        "subject": "SPC - Ind Cert program form setup",
+        "question": "It is not finished but wanted you to take a look and see what I need to do to make it \u2018developer-friendly\u2019."
+      },
+      {
+        "ticket_id": 42172,
+        "dataset": "spc",
+        "subject": "SPC - Strange Behavior in the Approvals Area",
+        "question": "PLease see the screen shot, It was taken from sandbox and concerned what would cause this and if it will show up in LIVE."
+      },
+      {
+        "ticket_id": 42172,
+        "dataset": "spc",
+        "subject": "SPC - Strange Behavior in the Approvals Area",
+        "question": "I refreshed and went back in and the filter was there but having the positions filter always show is very important."
+      },
+      {
+        "ticket_id": 41967,
+        "dataset": "spc",
+        "subject": "SPC - Notes Tab",
+        "question": "I just wanted to check if this was just how it is right now or if this is something being worked on."
+      },
+      {
+        "ticket_id": 41960,
+        "dataset": "spc",
+        "subject": "SPC - PROGRAMS \u2013 Pathways not savings \u2013 missing courses CS259",
+        "question": "As in first screenshot, you can see 2 SPC Certs noted."
+      }
+    ],
+    "Other": [
+      {
+        "ticket_id": 44330,
+        "dataset": "spc",
+        "subject": "SPC - add access to Zendesk",
+        "question": "Does this complete this ticket?"
+      },
+      {
+        "ticket_id": 44038,
+        "dataset": "spc",
+        "subject": "New Status - IC Approved",
+        "question": "Shirley, Is this new status \"**IC Approved**\" represent our \"**In Review**\" status like your other following status do?"
+      },
+      {
+        "ticket_id": 43661,
+        "dataset": "spc",
+        "subject": "SPC - Data Dictionary",
+        "question": "Please send SPC a new Data Dictionary."
+      },
+      {
+        "ticket_id": 40010,
+        "dataset": "spc",
+        "subject": "Refresh Sandbox",
+        "question": "Does this complete this support ticket?"
+      },
+      {
+        "ticket_id": 36290,
+        "dataset": "spc",
+        "subject": "Update User - Bighem-Moore",
+        "question": "Will you please have someone deactivate and reactivate a User?"
+      },
+      {
+        "ticket_id": 33000,
+        "dataset": "spc",
+        "subject": "SPC  BSC 3017 \u2013 Theory and Practices in the Biological Sciences.  ",
+        "question": "Is there any way I can retrieve this?"
+      },
+      {
+        "ticket_id": 26658,
+        "dataset": "spc",
+        "subject": "Please add Karen Shaw to Zendesk",
+        "question": "Angela, We will need to know what her email address is to create an account."
+      },
+      {
+        "ticket_id": 22398,
+        "dataset": "spc",
+        "subject": "Question regarding Prefix Look-Up Table",
+        "question": "Do we need to only show unique inactive ones as well?"
+      },
+      {
+        "ticket_id": 22398,
+        "dataset": "spc",
+        "subject": "Question regarding Prefix Look-Up Table",
+        "question": "If so what do we do with the duplicates?"
+      },
+      {
+        "ticket_id": 22398,
+        "dataset": "spc",
+        "subject": "Question regarding Prefix Look-Up Table",
+        "question": "What do we do with the courses attached to duplicates?"
+      },
+      {
+        "ticket_id": 21994,
+        "dataset": "spc",
+        "subject": "Re: Chair review check box",
+        "question": "Is that not what you wanted?"
+      },
+      {
+        "ticket_id": 21730,
+        "dataset": "spc",
+        "subject": "Chair review check box",
+        "question": "You should be able to see the changes in a few moments Please note the Testers Comments below indicating how this ticket was tested ---Procedure of Test/ Successful Tests--- I verified that the check box appears in a similar manner for C&I Committee Chair Approval as C&I Committee Members."
+      },
+      {
+        "ticket_id": 19734,
+        "dataset": "spc",
+        "subject": "Webservices not working",
+        "question": "Bill, I have sent this to our server team to see if they have any input on how to improve the web service retrieval for you Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 208.534.7901 - travish@governet.net"
+      },
+      {
+        "ticket_id": 18574,
+        "dataset": "spc",
+        "subject": "Odd screen appearing?",
+        "question": "ARe you referring to the page on the right or the left The left page is what users see after they submit, that's the intended page."
+      },
+      {
+        "ticket_id": 44396,
+        "dataset": "craig",
+        "subject": "New General Education/Transfer Element",
+        "question": "Craig, Just to confirm, you want a new GE Area \"**Language Other Than English**\" under the GE Area \"**Cal-GETC**\", correct?"
+      },
+      {
+        "ticket_id": 44396,
+        "dataset": "craig",
+        "subject": "New General Education/Transfer Element",
+        "question": "What GE element should be mapped to this new GE Area?"
+      },
+      {
+        "ticket_id": 44396,
+        "dataset": "craig",
+        "subject": "New General Education/Transfer Element",
+        "question": "This is how it works for all GE options in this ordered list section on this page."
+      },
+      {
+        "ticket_id": 44396,
+        "dataset": "craig",
+        "subject": "New General Education/Transfer Element",
+        "question": "This GE section will always have show/hide for the check-box \"**Approved**\" showing when the GE element is checked, that is how this configuration works for this ordered list section, we are not able to remove the show/hide for this specific GE section at this time."
+      },
+      {
+        "ticket_id": 43743,
+        "dataset": "armando",
+        "subject": "VVC - Assist - Getting an Error",
+        "question": "When checking with Aswsist, they said it is on our end."
+      }
+    ],
+    "Admin": [
+      {
+        "ticket_id": 44319,
+        "dataset": "spc",
+        "subject": "SPC URGENT API access",
+        "question": "Hi Angela, we are looking into this right now and will let you know what we find."
+      },
+      {
+        "ticket_id": 37331,
+        "dataset": "spc",
+        "subject": "SPC - Lookups",
+        "question": "Back in February, they added a value to Which summarizes the reason for your submission?"
+      },
+      {
+        "ticket_id": 28272,
+        "dataset": "spc",
+        "subject": "Error on modifying MLOs",
+        "question": "You will be notified when this has passed testing and is being applied to your live site."
+      }
+    ],
+    "Catalog": [
+      {
+        "ticket_id": 43217,
+        "dataset": "spc",
+        "subject": "SPC - Catalog - Articulation Catalog - Cannot Delete",
+        "question": "When they hit delete and select continue, it doesn o do anything."
+      },
+      {
+        "ticket_id": 42766,
+        "dataset": "spc",
+        "subject": "URGENT Catalog is not accessible",
+        "question": "Could you confirm for me whether this is resolved or whether you're still seeing this issue?"
+      },
+      {
+        "ticket_id": 37326,
+        "dataset": "spc",
+        "subject": "SPC - Adding a Image",
+        "question": "We need to either correct this or provide instructions and screen shots to SPC on how to add a picture inside the catalog with a link."
+      }
+    ],
+    "Workflow": [
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "subject": " SYSTEM - New user permissions issue",
+        "question": "Note, I remove the position from your production site where I don't know if you wanted it left there or not."
+      },
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "subject": " SYSTEM - New user permissions issue",
+        "question": "![](https://governet.zendesk.com/attachments/token/ddckAQpYuWseghpeY1b65UO8T/?name=image.png) The difference between my production screenshot and your video of your production site is, I'm using HTTPS in my URL for your site, and it looks like your video is not using HTTPS."
+      },
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "subject": " SYSTEM - New user permissions issue",
+        "question": "We can tell by the \"**Not secure**\" in your URL video."
+      },
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "subject": " SYSTEM - New user permissions issue",
+        "question": "Normally when a client tries to reach our site if they are using HTTP, we auto direct them to HTTPS, but if your college is using some sort of proxy server where it is limiting their users to HTTP, then that could cause issues."
+      },
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "subject": " SYSTEM - New user permissions issue",
+        "question": "Where I'm not able to reproduce the issue, please give that a try and let us know if that helps with the issue you're running into and if this helped complete this support ticket or not."
+      },
+      {
+        "ticket_id": 41697,
+        "dataset": "spc",
+        "subject": "APPROVALS - Count user/position    CS255",
+        "question": "If/when we address with future development, it will be noted in our release notes."
+      },
+      {
+        "ticket_id": 37639,
+        "dataset": "spc",
+        "subject": "C&I Approval - Melanie Paden EEC 4211",
+        "question": "![](https://governet.zendesk.com/attachments/token/o5nwaEJihucPgpbFBd8A9lFGj/?name=image.png) Can you include a screenshot from the user that includes the URL?"
+      },
+      {
+        "ticket_id": 22247,
+        "dataset": "spc",
+        "subject": "My Approvals Filtering \"stickiness\"",
+        "question": "Don\u2019t erase the previous filtering credentials when performing a search or doing approvals."
+      },
+      {
+        "ticket_id": 22247,
+        "dataset": "spc",
+        "subject": "My Approvals Filtering \"stickiness\"",
+        "question": "Needs to revert back to what they originally set."
+      },
+      {
+        "ticket_id": 18704,
+        "dataset": "spc",
+        "subject": "Change reviewers' Action options ",
+        "question": "You should be able to see the changes in a few moments Please note the Testers Comments below indicating how this ticket was tested Procedure of Test/ Successful Tests: The \"Approved\" and \"Disapprove\" show up and work correctly, the required field also works correctly when \"Disapprove\" is selected."
+      },
+      {
+        "ticket_id": 41940,
+        "dataset": "craig",
+        "subject": "Curriculum Analyst",
+        "question": "Hello Craig, There was some bad data in the history of some of the data that we imported when you can over to our new version."
+      }
+    ],
+    "CIP/Lookup": [
+      {
+        "ticket_id": 42742,
+        "dataset": "spc",
+        "subject": "FL CIP Table update",
+        "question": "Shirley, For this new FL CIP, what national CIP Code does this map too?"
+      },
+      {
+        "ticket_id": 44410,
+        "dataset": "armando",
+        "subject": "VVC - Missing CIP",
+        "question": "This is not a new one so we are not aware when it was removed, but it needs to be in the list."
+      },
+      {
+        "ticket_id": 43486,
+        "dataset": "armando",
+        "subject": "Updated CIP Code File",
+        "question": "Armando, Which exact **CIP Codes** are missing that need added?"
+      }
+    ],
+    "Search": [
+      {
+        "ticket_id": 42140,
+        "dataset": "spc",
+        "subject": "SPC - URGENT -  System error; server down?",
+        "question": "We are getting the following error when trying to login to META."
+      },
+      {
+        "ticket_id": 42140,
+        "dataset": "spc",
+        "subject": "SPC - URGENT -  System error; server down?",
+        "question": "Please let me know ASAP when fixed."
+      },
+      {
+        "ticket_id": 41658,
+        "dataset": "spc",
+        "subject": "SPC - Dashboard - Spacing and Image",
+        "question": "Can we make the boxes smaller on the dashboard so there is not so much white space?"
+      },
+      {
+        "ticket_id": 41658,
+        "dataset": "spc",
+        "subject": "SPC - Dashboard - Spacing and Image",
+        "question": "How do you add a image to the dashboard?"
+      },
+      {
+        "ticket_id": 27031,
+        "dataset": "spc",
+        "subject": "Adding a degree type option",
+        "question": "Karen, To add this option I need to know what PSAV stands for."
+      },
+      {
+        "ticket_id": 21366,
+        "dataset": "spc",
+        "subject": "Error message on search screen",
+        "question": "Are you still getting the error does it happen on different browsers does it happen for different users?"
+      },
+      {
+        "ticket_id": 20504,
+        "dataset": "spc",
+        "subject": "CTS Conversion Discipline",
+        "question": "I do not know why it was there either I have inactivated it through the Admin>Look-Up Data>Prefixes page."
+      },
+      {
+        "ticket_id": 42687,
+        "dataset": "armando",
+        "subject": "Access to V2archive.curriqunet.com/VictorValley",
+        "question": "Armando, The v2archive site for your college was imported over to the Meta/Maverick UI when you all converted over to the new UI, so you should be able to access the data in your new UI as needed."
+      },
+      {
+        "ticket_id": 42687,
+        "dataset": "armando",
+        "subject": "Access to V2archive.curriqunet.com/VictorValley",
+        "question": "I don't know when it will go away, but just giving you a heads-up."
+      },
+      {
+        "ticket_id": 42687,
+        "dataset": "armando",
+        "subject": "Access to V2archive.curriqunet.com/VictorValley",
+        "question": "Is your college still using the v2archive site?"
+      },
+      {
+        "ticket_id": 42687,
+        "dataset": "armando",
+        "subject": "Access to V2archive.curriqunet.com/VictorValley",
+        "question": "And if so, what reason is it still be accessed for?"
+      },
+      {
+        "ticket_id": 42687,
+        "dataset": "armando",
+        "subject": "Access to V2archive.curriqunet.com/VictorValley",
+        "question": "How often is your college accessing and using the v2archvie site?"
+      }
+    ],
+    "System": [
+      {
+        "ticket_id": 41825,
+        "dataset": "spc",
+        "subject": "SPC - API - Documentation - URGENT",
+        "question": "We need to create documentaion that shows the name of the fields and the name in the API and if we can store this in Meta and keep it updated when there is any changes, that would be the best."
+      },
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "subject": "Meta down",
+        "question": "Shirley, Are you still getting this error?"
+      },
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "subject": "Meta down",
+        "question": "What are your duplication steps, so I can follow along to reproduce the error you're seeing?"
+      },
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "subject": "Meta down",
+        "question": "Do you have a screenshot that includes URL that you can share?"
+      },
+      {
+        "ticket_id": 42417,
+        "dataset": "craig",
+        "subject": "Edit to Distance Education form",
+        "question": "Hi Craig, Just to clarify - do you want to remove these three dropdowns from the Distance Education course form only, or do you want to remove them from _all_ course forms?"
+      }
+    ],
+    "Units/Hours": [
+      {
+        "ticket_id": 24361,
+        "dataset": "spc",
+        "subject": "Fwd: St. Petersburg College",
+        "question": "Bill, Do you have a preference as to the picture that you would like to have displayed on the cover of the user guide?"
+      }
+    ]
+  }
+}

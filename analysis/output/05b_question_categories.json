@@ -1,0 +1,827 @@
+{
+  "overall_category_counts": {
+    "environment": {
+      "count": 80,
+      "pct_of_all_tickets": 9.4
+    },
+    "scope_confirmation": {
+      "count": 23,
+      "pct_of_all_tickets": 2.7
+    },
+    "impact_scope": {
+      "count": 23,
+      "pct_of_all_tickets": 2.7
+    },
+    "scope_boundary": {
+      "count": 18,
+      "pct_of_all_tickets": 2.1
+    },
+    "which_record": {
+      "count": 12,
+      "pct_of_all_tickets": 1.4
+    },
+    "screenshot_generic": {
+      "count": 6,
+      "pct_of_all_tickets": 0.7
+    },
+    "still_happening": {
+      "count": 5,
+      "pct_of_all_tickets": 0.6
+    },
+    "screenshot_with_url": {
+      "count": 4,
+      "pct_of_all_tickets": 0.5
+    },
+    "which_browser": {
+      "count": 4,
+      "pct_of_all_tickets": 0.5
+    },
+    "which_user": {
+      "count": 3,
+      "pct_of_all_tickets": 0.4
+    },
+    "steps_to_reproduce": {
+      "count": 2,
+      "pct_of_all_tickets": 0.2
+    },
+    "expected_vs_actual": {
+      "count": 1,
+      "pct_of_all_tickets": 0.1
+    }
+  },
+  "per_topic": {
+    "Courses": {
+      "tickets_in_topic": 119,
+      "any_category_hit_pct": 22.7,
+      "categories": {
+        "environment": {
+          "count": 17,
+          "pct_of_topic": 14.3
+        },
+        "scope_confirmation": {
+          "count": 5,
+          "pct_of_topic": 4.2
+        },
+        "impact_scope": {
+          "count": 5,
+          "pct_of_topic": 4.2
+        },
+        "screenshot_generic": {
+          "count": 2,
+          "pct_of_topic": 1.7
+        },
+        "which_record": {
+          "count": 2,
+          "pct_of_topic": 1.7
+        },
+        "scope_boundary": {
+          "count": 1,
+          "pct_of_topic": 0.8
+        }
+      }
+    },
+    "Reports": {
+      "tickets_in_topic": 321,
+      "any_category_hit_pct": 18.1,
+      "categories": {
+        "environment": {
+          "count": 32,
+          "pct_of_topic": 10.0
+        },
+        "scope_confirmation": {
+          "count": 10,
+          "pct_of_topic": 3.1
+        },
+        "impact_scope": {
+          "count": 8,
+          "pct_of_topic": 2.5
+        },
+        "scope_boundary": {
+          "count": 7,
+          "pct_of_topic": 2.2
+        },
+        "which_record": {
+          "count": 4,
+          "pct_of_topic": 1.2
+        },
+        "screenshot_generic": {
+          "count": 3,
+          "pct_of_topic": 0.9
+        },
+        "which_browser": {
+          "count": 2,
+          "pct_of_topic": 0.6
+        },
+        "still_happening": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "which_user": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "steps_to_reproduce": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        }
+      }
+    },
+    "Programs": {
+      "tickets_in_topic": 299,
+      "any_category_hit_pct": 15.4,
+      "categories": {
+        "environment": {
+          "count": 18,
+          "pct_of_topic": 6.0
+        },
+        "scope_boundary": {
+          "count": 10,
+          "pct_of_topic": 3.3
+        },
+        "impact_scope": {
+          "count": 10,
+          "pct_of_topic": 3.3
+        },
+        "scope_confirmation": {
+          "count": 6,
+          "pct_of_topic": 2.0
+        },
+        "which_record": {
+          "count": 6,
+          "pct_of_topic": 2.0
+        },
+        "which_user": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "screenshot_generic": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "screenshot_with_url": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "still_happening": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "expected_vs_actual": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        },
+        "which_browser": {
+          "count": 1,
+          "pct_of_topic": 0.3
+        }
+      }
+    },
+    "Catalog": {
+      "tickets_in_topic": 12,
+      "any_category_hit_pct": 16.7,
+      "categories": {
+        "still_happening": {
+          "count": 1,
+          "pct_of_topic": 8.3
+        },
+        "scope_confirmation": {
+          "count": 1,
+          "pct_of_topic": 8.3
+        },
+        "environment": {
+          "count": 1,
+          "pct_of_topic": 8.3
+        }
+      }
+    },
+    "Workflow": {
+      "tickets_in_topic": 16,
+      "any_category_hit_pct": 25.0,
+      "categories": {
+        "environment": {
+          "count": 3,
+          "pct_of_topic": 18.8
+        },
+        "screenshot_with_url": {
+          "count": 2,
+          "pct_of_topic": 12.5
+        }
+      }
+    },
+    "Other": {
+      "tickets_in_topic": 56,
+      "any_category_hit_pct": 16.1,
+      "categories": {
+        "environment": {
+          "count": 7,
+          "pct_of_topic": 12.5
+        },
+        "which_user": {
+          "count": 1,
+          "pct_of_topic": 1.8
+        },
+        "scope_confirmation": {
+          "count": 1,
+          "pct_of_topic": 1.8
+        }
+      }
+    },
+    "System": {
+      "tickets_in_topic": 10,
+      "any_category_hit_pct": 10.0,
+      "categories": {
+        "still_happening": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        },
+        "steps_to_reproduce": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        },
+        "screenshot_with_url": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        }
+      }
+    },
+    "Admin": {
+      "tickets_in_topic": 5,
+      "any_category_hit_pct": 20.0,
+      "categories": {
+        "environment": {
+          "count": 1,
+          "pct_of_topic": 20.0
+        }
+      }
+    },
+    "Search": {
+      "tickets_in_topic": 10,
+      "any_category_hit_pct": 20.0,
+      "categories": {
+        "environment": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        },
+        "which_browser": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        },
+        "still_happening": {
+          "count": 1,
+          "pct_of_topic": 10.0
+        }
+      }
+    }
+  },
+  "examples": {
+    "environment": [
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "snippet": "**SEE ATTACHED PDF FOR FULL DETAILS IN THE EMAIL THREAD.** Angela and Troy, I think we have a multi-level issue going on here. Please note that I\u2019ve received the same 500-level errors when stepping thru the code, but everything from this point in the email is a reference to Postman. LIVE: https://mw"
+      },
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "snippet": "Andrijana, I need to know the exact program that you're looking in, so I know which program form version needs to be refreshed. For testing, I just refreshed the program form, **New Program**, and went into a new program proposal, and confirmed I can see that option on the production site. See image"
+      },
+      {
+        "ticket_id": 43760,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "REPORTS - Revise Adtl' Admin Report - 3 Year Course Review #2",
+        "snippet": "Hi Andrijana, Support tickets auto close once changes are applied to the production site. We can update this ticket to be applied to sandbox for clients testing, so that you can first test and approve the changes before they are applied to the production site. We have added your request to the suppo"
+      },
+      {
+        "ticket_id": 42828,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "AR form add new field",
+        "snippet": "Here are the changes that have been made regarding this ticket. -Newest \u201cArticulations\u201d and \u201cDeactivate Articulations\u201c Program forms - Basic Program Information tab Added the \u201cIs this a new agreement?\u201d yes no dropdown under \u201cAward Type\u201d and above \u201cDate Articulation Agreement first approved\u201d -Active "
+      },
+      {
+        "ticket_id": 42814,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "New Admin Rpt - PLO",
+        "snippet": "Shirley, I created the new custom ad hoc report \"**PLO**\" on the production site. If you have any questions, please let me know. Please go take a look and let us know if this helps completes this support ticket. Regards, Mike Gregston (208) 522-1225"
+      },
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "topic": "Workflow",
+        "subject": " SYSTEM - New user permissions issue",
+        "snippet": "Andrijana, I just tried on our testing server and your production server and was able to add the position \"**C&I Blue Group**\" to the user \"**Rebecca Overdorf**\" with no issues. See image below. Note, I remove the position from your production site where I don't know if you wanted it left there or n"
+      },
+      {
+        "ticket_id": 42563,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "REPORTS - Prereq & Prg Impact Listing Report",
+        "snippet": "Here are the changes that have been made regarding this ticket. -\u201cProgram and Prerequisite Impact Listing\u201d Admin report - Added Program Code filter and optimized the report's speed The work completed on this ticket will be deployed shortly to your production environment. Once the deployment is compl"
+      },
+      {
+        "ticket_id": 42451,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Pathway Embedded CTs Not Choosing Active Versions",
+        "snippet": "Hello Andrijana, I have updated the Program Pathway report to ensure that when you lick on the embedded CTs that it will link to the correct program that is active. This update will be put on your live site shortly. Thank you, Nate W."
+      },
+      {
+        "ticket_id": 42338,
+        "dataset": "spc",
+        "topic": "Catalog",
+        "subject": "Articulations Catalog - add \"Download Catalog\"",
+        "snippet": "Hello Shirley, I have added the download link and a table of contents for the Articulations Catalog. This is already on your live site. Note this can all be done by you and here is how. 1. Add a new page 2. Name it \"Download Catalog\" or whatever you wish 3. Add a Formatted Text 4. Go copy a download"
+      },
+      {
+        "ticket_id": 42223,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "PROGRAM Reactivate MGSED-TR (#1306)",
+        "snippet": "Hello Shirley, I have fixed the linked proposal type to the program to a modify, updated the program to be active, fixed program family to say its now got the active program of 1306. This will be on your live site shortly. Thank you, Nate W."
+      }
+    ],
+    "scope_confirmation": [
+      {
+        "ticket_id": 44755,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+        "snippet": "**SEE ATTACHED PDF FOR FULL DETAILS IN THE EMAIL THREAD.** Angela and Troy, I think we have a multi-level issue going on here. Please note that I\u2019ve received the same 500-level errors when stepping thru the code, but everything from this point in the email is a reference to Postman. LIVE: https://mw"
+      },
+      {
+        "ticket_id": 44467,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Articulation Program Proposals - Teach-Out",
+        "snippet": "Ariel, I'm not for sure what you mean by \"**teach-out status**\". Not sure how creating a new program proposal type would help. Looking at programs using the proposal types \"**New Articulation Program**\" and \"**Articulation Modification**\", I see on page \"**Codes and Dates**\", field \"**Active Status*"
+      },
+      {
+        "ticket_id": 44466,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "snippet": "Ariel, Just to confirm, in the admin report \"**Articulation AR courses**\", you want a new column, and in that new column display the program total units from the program \"**Course Blocks**\" page, correct? This means that value would duplicate for every single course in a program on this report per t"
+      },
+      {
+        "ticket_id": 44464,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Academic Pathways Instructional Text",
+        "snippet": "Ariel, Just to confirm what all is being requested in this support ticket, see the below understanding. - Report \"**Program Pathway**\": - Update the instructional help text in the top left: - Move the 4th bullet point up to be in the 2nd bullet point position, and then add the text/hyperlink at the "
+      },
+      {
+        "ticket_id": 43598,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "TR form should not have Porgram Outcomes",
+        "snippet": "Shirley, The \"**Program of Study**\" report is used for all program types. **Transfer Plan...** proposal types are still under programs, so that it why it would display there. Just to confirm what is being requested, on the \"**Program of Study**\" report, section \"**Program Learning Outcomes**\", hide "
+      },
+      {
+        "ticket_id": 42782,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SYSTEM \u2013 Program Approval Workflows",
+        "snippet": "Andrijana, Looking at the workflow, \"**Program New Workflow**\", I see your draft version \"**Draft 4.22.2025 for Spring 2026 cycle**\" and looking at the workflow \"**Program Modification Workflow**\", I see your draft version \"**Draft 5.5.2025 for Spring 2026 cycle**\". The workflow action \u201c**Target Sta"
+      },
+      {
+        "ticket_id": 42766,
+        "dataset": "spc",
+        "topic": "Catalog",
+        "subject": "URGENT Catalog is not accessible",
+        "snippet": "Hi Shirley, Natalie brought this to my attention this morning and I believe I was able to figure out the problem. Sometimes catalog alias links are a little picky, and in this particular case, the leading numbers (numbers at the beginning of the alias) were the issue. I updated the alias to \"acadcat"
+      },
+      {
+        "ticket_id": 23994,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "New report:  Curriculum Course Updates by Term",
+        "snippet": "This change has been implemented and verified and is now being applied to the your live site. You should be able to see the changes in a few moments Please note the Testers Comments below indicating how this ticket was tested ---Procedure of Test/ Successful Tests--- Admin> Reports> Report 4. \"Curri"
+      },
+      {
+        "ticket_id": 23749,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "Add logo and title to course outline",
+        "snippet": "This change has been implemented and verified and is now being applied to the your live site. You should be able to see the changes in a few moments Please note the Testers Comments below indicating how this ticket was tested ---Procedure of Test/ Successful Tests--- BUILD> COURSES> Select \"ACG\" for"
+      },
+      {
+        "ticket_id": 23363,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "Total credit line for Non Course Requirements",
+        "snippet": "This change has been implemented and verified and is now being applied to the your live site. You should be able to see the changes in a few moments Please note the Testers Comments below indicating how this ticket was tested ---Procedure of Test/ Successful Tests--- Build> Programs> Select \"College"
+      }
+    ],
+    "scope_boundary": [
+      {
+        "ticket_id": 44466,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Additional Admin Report - Articulation AR Courses",
+        "snippet": "Ariel, Just to confirm, in the admin report \"**Articulation AR courses**\", you want a new column, and in that new column display the program total units from the program \"**Course Blocks**\" page, correct? This means that value would duplicate for every single course in a program on this report per t"
+      },
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "snippet": "Andrijana, I need to know the exact program that you're looking in, so I know which program form version needs to be refreshed. For testing, I just refreshed the program form, **New Program**, and went into a new program proposal, and confirmed I can see that option on the production site. See image"
+      },
+      {
+        "ticket_id": 42835,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SYSTEM and ARs - award types",
+        "snippet": "Shirley, Should these new award types only show for articulation program type, or should they also display for normal programs, transfer plans programs, and industries programs? Regards, Mike Gregston (208) 522-1225"
+      },
+      {
+        "ticket_id": 41756,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Main Search",
+        "snippet": "The Search needs to be the same for all users and is not quite right. So the default listing on the main search page is now showing all courses or programs that are active and the lists all the courses/programs that are historical. We have 1712 active courses. On this main landing page, say for cour"
+      },
+      {
+        "ticket_id": 39510,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Catalog Program - Urgent",
+        "snippet": "Would you all be able to help me in getting the programs in there since there are so many? The State of Florida and their Gen Ed wisdom. There are 57 that are new or modified this cycle and they are on 2 different pages in the catalog. There are 94 TR\u2019s and we only have the Pathways in the Catalog"
+      },
+      {
+        "ticket_id": 38236,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Re: SPC - Course Attributes #37997 NOT SOLVED",
+        "snippet": "This has been taken care of for all proposals movingforward, but it needs to be done for ALL proposals in SPC. I\u2019m using PROD on FF and Chrome (and cleared cache too). I am looking at MAN 9999, which is my testing course, and is still not correct. I also review an active course, BOT 3015, and the CO"
+      },
+      {
+        "ticket_id": 36734,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Ad Hoc Report",
+        "snippet": "Build an ad hoc report that would pull all courses from the pathways with the following fields: Program code (of particular pathway), Course prefix, course number, course title, credit hours and course type - Active only There is a saved ad hoc called \u201cCourse Semesters Offered\u201d that might be pulling"
+      },
+      {
+        "ticket_id": 22829,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Related programs feature is not functioning correctly",
+        "snippet": "Angela, I just pulled up the Program Report for the program you have highlighted in your document \"Technology Management\" Effective Spring 2014 Unlinke your document I do not see ISM 4915 listed, has this been changed. Also you will note that in your document and also in the Course Outlines for the "
+      },
+      {
+        "ticket_id": 22241,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Check Status",
+        "snippet": "Put check status button on approval pages.-Tim Make sure it shows on My Approvals, My Proposals as it does on All Proposals.-Travis Hillyard Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 208.534.7901 - travish@govern"
+      },
+      {
+        "ticket_id": 22237,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "All fields Comparison Report ",
+        "snippet": "Make the comparison report an all-fields report. Not just an outline report Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 208.534.7901 - travish@governet.net"
+      }
+    ],
+    "which_record": [
+      {
+        "ticket_id": 44327,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC SYSTEM - Refresh Lookup Manager ",
+        "snippet": "Andrijana, I need to know the exact program that you're looking in, so I know which program form version needs to be refreshed. For testing, I just refreshed the program form, **New Program**, and went into a new program proposal, and confirmed I can see that option on the production site. See image"
+      },
+      {
+        "ticket_id": 40027,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "ARTICULATIONS \u2013 Art Prgm page clear out  CS196",
+        "snippet": "Here is a summary of the Articulation Programs we talked about earlier today. It relates back to ticket #39565. Please get to Clint by whatever means you need to. Again, thanks to you both! From conversation on 6/6/24 with Shirley, Ariel and Natalie, Clint. Articulation program type > Articulation P"
+      },
+      {
+        "ticket_id": 38174,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Admin Report NEED BY 09/21",
+        "snippet": "The State is replacing 2 math courses and I\u2019m looking for a report that will give me a list of the active programs that have 1 or both courses in the course block and/or on the pathway. With this report, I will then know which programs will need to have a change without having to manually look at ev"
+      },
+      {
+        "ticket_id": 37066,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Re: SPC - Embedded CT not showing ",
+        "snippet": "Just to clarify\u2026the highlighted degree/award types should be included in the \u201c\u2026embedded SPC Certificate\u2026\u201d dropdown. This list appears here: PROGRAMS > Program Pathway tab > _course_ > \u201cDoes this course count toward an embedded SPC Certificate?\u201d If yes is selected, then the relevant award types are t"
+      },
+      {
+        "ticket_id": 35668,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Report for V2",
+        "snippet": "Sorry to take so long to get you this info. I was trying to run a report in V2 to see what programs exist (all statuses) with the red circles degree types below. This list is from the Lookup table for Degree Types. However, when I try to run an ad hoc report, the degree types are a little different "
+      },
+      {
+        "ticket_id": 21426,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "Delete historical courses",
+        "snippet": "I am not sure which courses you are referencing I have searched for \".\" and \",\" with no results. I have looked through the HIM classes and I am not sure what to delete. Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 2"
+      },
+      {
+        "ticket_id": 18750,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "Originator Change",
+        "snippet": "\u2022 I assigned an academic org to it which now enables Greg to at least pull up the course (Search/Course) Pat has origination rights to the RMI course prefix which means he can create new courses and create modifications of existing versions. It does not give him right to edit any RMI course. \u2022 He (G"
+      },
+      {
+        "ticket_id": 40847,
+        "dataset": "craig",
+        "topic": "Programs",
+        "subject": "Special Proposal Effective Terms",
+        "snippet": "Craig, Why is the filed \"**Effective Term**\" on page \"**Cover**\" read only on the form \"**Credit for Prior Learning**\" that uses the proposal type \"**Credit for Prior Learning**\"? Example, course **AJ 50** (5620) that is using the proposal type/form above. Any time a modification course is made, thi"
+      },
+      {
+        "ticket_id": 39924,
+        "dataset": "craig",
+        "topic": "Programs",
+        "subject": "New Proposal List",
+        "snippet": "Craig, The option titles in that drop-down are proposal type titles. They are not workflow titles. Workflows are mapped to proposal types, but they are two completely different titles. Here is where your proposal types exists and what workflows are mapped to those proposal types: Which proposal type"
+      },
+      {
+        "ticket_id": 44770,
+        "dataset": "armando",
+        "topic": "Reports",
+        "subject": "Re: Contact Hours Per Term Chart Error | Course Outline of Record Report",
+        "snippet": "Armando, What courses are you looking at in your attached images, I'm not seeing the full browser in the images, so I don't know which courses to test with? Michael Gregston Support Supervisor O: 208-522-1225 E: mike.gregston@acadea.com | W: www.acadea.com A: 1600 John Adams Pkwy, Suite 200, Idaho F"
+      }
+    ],
+    "which_user": [
+      {
+        "ticket_id": 43926,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SYSTEM - New Academic Org Issue",
+        "snippet": "Andrijana, I took a back-up from last night and applied to our testing site. I look at the course ID (10324) as a support admin user and I see the option \"**HNRS-UD**\" in the drop-down field \"**Associated Academic Organization**\" on course page \"**General Course Cover**\". See image example below. Wh"
+      },
+      {
+        "ticket_id": 18574,
+        "dataset": "spc",
+        "topic": "Other",
+        "subject": "Odd screen appearing?",
+        "snippet": "ARe you referring to the page on the right or the left The left page is what users see after they submit, that's the intended page. Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 208.534.7901 - travish@governet.net"
+      },
+      {
+        "ticket_id": 44544,
+        "dataset": "armando",
+        "topic": "Reports",
+        "subject": "Course Number Disappearing After Launch",
+        "snippet": "Armando, For testing, I tried logging in as **Admin** user and **Unlaunch Proposal** the course **AMUS 9436** (10778), I then log in as the user \"Joshua.Phillips@vvc.edu\", went into this course and **Launch** it. Went back into the course and confirmed the as Admin & that originator user and confirm"
+      }
+    ],
+    "impact_scope": [
+      {
+        "ticket_id": 43902,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Programs - Move programs to current active form template",
+        "snippet": "Shirley, The changes made in ticket #43581 were applied to the current active program form versions. Note, the program \"**Event Planning Management (EVENT-CT)**\" (800), is not using the most current active program form version. It is using an older form version. If you were to modify this program, i"
+      },
+      {
+        "ticket_id": 43301,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - REPORTS - Program of Study & Comparison - Program - Follow up - #43221",
+        "snippet": "I would like to request that all our tickets\u2019 status be set to \u201cWaiting on your reply\u201d before deploying to production. We should have a chance to test/review the work done before deployment. Otherwise, we will have to ask to have everything posted to the sandbox first. This ticket is (again) a perfe"
+      },
+      {
+        "ticket_id": 41756,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Main Search",
+        "snippet": "The Search needs to be the same for all users and is not quite right. So the default listing on the main search page is now showing all courses or programs that are active and the lists all the courses/programs that are historical. We have 1712 active courses. On this main landing page, say for cour"
+      },
+      {
+        "ticket_id": 40027,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "ARTICULATIONS \u2013 Art Prgm page clear out  CS196",
+        "snippet": "Here is a summary of the Articulation Programs we talked about earlier today. It relates back to ticket #39565. Please get to Clint by whatever means you need to. Again, thanks to you both! From conversation on 6/6/24 with Shirley, Ariel and Natalie, Clint. Articulation program type > Articulation P"
+      },
+      {
+        "ticket_id": 39544,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Public View",
+        "snippet": "On the Public View page, what are the parameters for the PROGRAM TITLE length before it cuts off? 30 characters?? As you can see by this example (Programs, Org = College of Bus, Status=Active), the 2 programs highlighted cut off, but the COENTR-ATC and GRENTR-CT do not. The both have more than 30 ch"
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "SPC - ",
+        "snippet": "I spent about an hour yesterday looking at the Requisites and it was not behaving or looking like it should. See the below. I spent the time this morning making the screenshots and testing for the below. I was going to do one more example (changing all to a B) and now the Min grade field is showing "
+      },
+      {
+        "ticket_id": 37119,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Courses Implementation ",
+        "snippet": "COURSES\u2026at Implementation, the Implementation Date should autofill the \u201cImplement Date\u201d field on the Codes & Dates tab. (Programs seem to be OK with the autofill\u2026please verify, though, that all programs, Articulations, and Transfer Plans autofill the \u201cImplementation Date/Approved\u201d field on the Codes"
+      },
+      {
+        "ticket_id": 36734,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Ad Hoc Report",
+        "snippet": "Build an ad hoc report that would pull all courses from the pathways with the following fields: Program code (of particular pathway), Course prefix, course number, course title, credit hours and course type - Active only There is a saved ad hoc called \u201cCourse Semesters Offered\u201d that might be pulling"
+      },
+      {
+        "ticket_id": 36723,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "COURSES - missing Related Programs  CS110-02 08 2023",
+        "snippet": "Shirley, The reason child courses that are still in the workflow do not have **Related Programs**, is because the course is not mapped to any programs yet. Only the **Active** course are mapped to programs. Once the child course becomes **Active**, then the auto update runs which updates all program"
+      },
+      {
+        "ticket_id": 36522,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Documentaiton Course Block LIbrary",
+        "snippet": "Can you please provide a written explanation of how an edit to a course affects the course in course blocks; and how changes in Course Block Library works (edit to active or new proposal; changes only to active not historical; effective only going forward, etc)? If you can provide some info before T"
+      }
+    ],
+    "still_happening": [
+      {
+        "ticket_id": 42766,
+        "dataset": "spc",
+        "topic": "Catalog",
+        "subject": "URGENT Catalog is not accessible",
+        "snippet": "Hi Shirley, Natalie brought this to my attention this morning and I believe I was able to figure out the problem. Sometimes catalog alias links are a little picky, and in this particular case, the leading numbers (numbers at the beginning of the alias) were the issue. I updated the alias to \"acadcat"
+      },
+      {
+        "ticket_id": 41964,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Courses missing number",
+        "snippet": "Shirley, I took a backup of your live site from last night, and look at course **AMH 2070** (336). When in the course and when in the \"**Approved Course Outline**\" report, I'm seeing the course number with no issues. For the \"**Approvals**\" search page, it looks like the course number displays in th"
+      },
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "topic": "System",
+        "subject": "Meta down",
+        "snippet": "Shirley, Are you still getting this error? What are your duplication steps, so I can follow along to reproduce the error you're seeing? Do you have a screenshot that includes URL that you can share? Regards, Mike Gregston (208) 522-1225"
+      },
+      {
+        "ticket_id": 29413,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Server error",
+        "snippet": "Angela, I am unable to recreate these errors. Are you still having them? I ask because I was just told that we have had problems with one of our servers the last couple of days. Thanks, Wesley L"
+      },
+      {
+        "ticket_id": 21366,
+        "dataset": "spc",
+        "topic": "Search",
+        "subject": "Error message on search screen",
+        "snippet": "Angela, This error is just a time out error saying the page took to long to load. I have not been able to reproduce the error. Are you still getting the error does it happen on different browsers does it happen for different users? Thank You, Travis Hillyard Governet Customer Support Manager Please "
+      }
+    ],
+    "screenshot_with_url": [
+      {
+        "ticket_id": 42765,
+        "dataset": "spc",
+        "topic": "Workflow",
+        "subject": " SYSTEM - New user permissions issue",
+        "snippet": "Andrijana, I just tried on our testing server and your production server and was able to add the position \"**C&I Blue Group**\" to the user \"**Rebecca Overdorf**\" with no issues. See image below. Note, I remove the position from your production site where I don't know if you wanted it left there or n"
+      },
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "topic": "System",
+        "subject": "Meta down",
+        "snippet": "Shirley, Are you still getting this error? What are your duplication steps, so I can follow along to reproduce the error you're seeing? Do you have a screenshot that includes URL that you can share? Regards, Mike Gregston (208) 522-1225"
+      },
+      {
+        "ticket_id": 37720,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Can't Edit Active Proposals",
+        "snippet": "Andrijana, I took a back-up of your production database and applied it to our test server. I log in as you (ekberg.andrijana@spcollege.edu) on our test server and confirmed, as you, can edit the program and course where you're an admin user. I can't see your URL in your screenshots, so I can't tell "
+      },
+      {
+        "ticket_id": 37639,
+        "dataset": "spc",
+        "topic": "Workflow",
+        "subject": "C&I Approval - Melanie Paden EEC 4211",
+        "snippet": "Andrijana, I log in as user \"**Melaie Paden**\" on our testing site and was able to take action \"**Approved**\" as this user with no issues. Can you include a screenshot from the user that includes the URL? Regards, Mike Gregston (208) 522-1225"
+      }
+    ],
+    "screenshot_generic": [
+      {
+        "ticket_id": 41834,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "Approvals - course number and org missing",
+        "snippet": "Hello Shirley, The Organization column only shows for Programs and the Subject Column only shows for courses as that is how it has always been. Note the Course Number missing from the Title column will be resolved in 41836 as it is the same issue found. Please let me know if I understand the issues "
+      },
+      {
+        "ticket_id": 41829,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "SPC - Meta Production Issues -  URGENT",
+        "snippet": "Leah Olson was added as a new user on 11/21 however, although she is set-up the same as other regular users and listed as a co-contributor on her courses, she cannot edit. She can only view and in doing so, the proposals are showing as \u201ccompleted\u201d on her end, when there are 3 requirements left on my"
+      },
+      {
+        "ticket_id": 39037,
+        "dataset": "spc",
+        "topic": "Courses",
+        "subject": "SPC - ",
+        "snippet": "I spent about an hour yesterday looking at the Requisites and it was not behaving or looking like it should. See the below. I spent the time this morning making the screenshots and testing for the below. I was going to do one more example (changing all to a B) and now the Min grade field is showing "
+      },
+      {
+        "ticket_id": 37892,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "SPC - Pathway sequence validation",
+        "snippet": "I have run across a program (TRNDEV-ATC #1319) and for the Program Pathway, where the courses are entered and assigned a sequence number, all the courses are there, the total credits at the top is correct, however, when you look below that to see how the Pathway report will look and if there is a se"
+      },
+      {
+        "ticket_id": 20459,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Ad Hoc Reports",
+        "snippet": "What are you trying to get from this report? Could you send us a screen shot of the page before this please? Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions or concerns 208.534.7901 - travish@governet.net"
+      },
+      {
+        "ticket_id": 44171,
+        "dataset": "craig",
+        "topic": "Reports",
+        "subject": "Course Outline of Record - Order",
+        "snippet": "Craig, > 2. For the Course Content section, please put Lecture content before Lab content, and change \"Lab\" to \"Lab Activities\" Looking at the course page \"**Course Content**\", I filled in the two fields, and I'm not seeing any output for this data in the reports \"**Course Outline**\" or \"**Admin Out"
+      }
+    ],
+    "steps_to_reproduce": [
+      {
+        "ticket_id": 38314,
+        "dataset": "spc",
+        "topic": "System",
+        "subject": "Meta down",
+        "snippet": "Shirley, Are you still getting this error? What are your duplication steps, so I can follow along to reproduce the error you're seeing? Do you have a screenshot that includes URL that you can share? Regards, Mike Gregston (208) 522-1225"
+      },
+      {
+        "ticket_id": 44544,
+        "dataset": "armando",
+        "topic": "Reports",
+        "subject": "Course Number Disappearing After Launch",
+        "snippet": "Armando, For testing, I tried logging in as **Admin** user and **Unlaunch Proposal** the course **AMUS 9436** (10778), I then log in as the user \"Joshua.Phillips@vvc.edu\", went into this course and **Launch** it. Went back into the course and confirmed the as Admin & that originator user and confirm"
+      }
+    ],
+    "which_browser": [
+      {
+        "ticket_id": 33806,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "Outline Comparison Report",
+        "snippet": "Hello Again, Not sure if there\u2019s anything you can do, but no matter what browser I use I can\u2019t get the Outline Comparison Report to pull up on courses. I get this error: Refreshing the page doesn\u2019t seem to help either. I was trying to pull up the one for HSC 3211."
+      },
+      {
+        "ticket_id": 21366,
+        "dataset": "spc",
+        "topic": "Search",
+        "subject": "Error message on search screen",
+        "snippet": "Angela, This error is just a time out error saying the page took to long to load. I have not been able to reproduce the error. Are you still getting the error does it happen on different browsers does it happen for different users? Thank You, Travis Hillyard Governet Customer Support Manager Please "
+      },
+      {
+        "ticket_id": 18571,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "Requisite drop down",
+        "snippet": "Which browser (name and version) are you using I think this is an older version of Internet Explorer issue as I was able to see the entire width in Firefox and Internet Explorer 10 Thank You, Travis Hillyard Governet Customer Support Manager Please feel free to contact me if you have any questions o"
+      },
+      {
+        "ticket_id": 18350,
+        "dataset": "spc",
+        "topic": "Reports",
+        "subject": "CurricUNET St Petersburg Bug Report",
+        "snippet": "Cc: todd@governet.net, support@governet.net, development@governet.net Floyd Butz Session Variables - struct crs_start [empty string] gmess_uid [empty string] progr_start [empty string] sessionid 843059fca93c536e3f7e2c80835633210136 urltoken CFID=644829&CFTOKEN=32729542&jsessionid=843059fca93c536e3f7"
+      }
+    ],
+    "expected_vs_actual": [
+      {
+        "ticket_id": 19087,
+        "dataset": "spc",
+        "topic": "Programs",
+        "subject": "St. Petersburg Web services",
+        "snippet": "[image: .] Hello Bill, The St. Petersburg project has been moved over to our Maintenance Department. Travis is the manager of that Department and I have included him on this email. Please work with him to make any additional changes or updates to the webservices. Thanks, [image: from] Jared Pratt *D"
+      }
+    ]
+  }
+}

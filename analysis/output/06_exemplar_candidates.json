@@ -1,0 +1,640 @@
+{
+  "Reports": [
+    {
+      "score": 9,
+      "ticket_id": 25523,
+      "dataset": "spc",
+      "subject": "Curriculum Committee Agenda Report",
+      "description": "I've attached some screen shots of the report as it is running right now (which is indicating a Server Error) and some updates to the formatting and fields.  Most important for this report is the ability to identify the type of change that occurred in the proposal, i.e. prerequisites, MLOs, credit hours, Course Description, etc., which is already identified via the Comparison report. Can this be added on this report (\"Impact\" field)?",
+      "signals": {
+        "reasonable_length": true,
+        "has_section_header": true,
+        "mentions_screenshot": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 40786,
+      "dataset": "craig",
+      "subject": "NMAT 210 - Unit and Hours / Validation and Missing Data",
+      "description": "**This ticket created by NancyH on behalf of Craig Kutil**\n* * *\nA recent ticket added the CB22 field to the units and hours tab in course proposals.   The new CB22 field is not filtering correctly based on the credit status of N-Non Credit.\n- See the image below you can see that the CB22 option of \"Y\" is not correct since it is a Non Credit Course.  According to the course detail in V2 this course should have \"C\" as selected value for CB22\n- Also note that there are \"0\" hours in the total noncredit hours  / According to the same course in V2 it should have 72.0 Lecture hours and 72.0 Total Non Credit Hours.\n- This course is part of program #565 - Foundational Mathematics Pathway - Certificate of Competency (Active).   The hours for for both the courses in the Program Course Block (NMAT 207 and NMAT 210) are showing as \"0\".  And the hours for NMAT 210 is also \"0\" but is also been set to override?\nWhen I open the programs for the Course and Program\n- Program Pathway - Shows the Label \"Units\" instead of Hours (This label was updated in a previous ticket.  Since it is noncredit the REPORT should show \"HOURS\" instead of UNITS\n- Previously when I ran the Program Requirements Report the  Label is CORRECT (Hours).  However, the NMAT 207 shows 108.0 instead of \"0\" that was shown in the pathway report.  (maybe the data was changed since I first ran the report - but we need to look and make sure that something is not updating in the background and changing the value int he report.\n- Program Narrative - Showing the correct Label (Hours).  NMAT 207 is reporting the same as in the Program Requirements noted just above.\n- Course outline report - shows \"0\" Hours in Meta.  In V2 the course outline is reporting \"72\"hours\nWhat to do:\n- Check the Courses and ensure that the hours are being calculated correctly.\n- Check and correct the CB Validation so the correct options appear in the CB22 dropdown\n- Check to make sure that the data from V2 was imported into this course\n- Check to make sure that the hours are being reflected correctly in the program - course blocks and in all reports (course and program)\n- When the discrepancies are identified, run a query to identify all course/programs that have the same conditions so they can all be identified and corrected.\n ![](https://governet.zendesk.com/attachments/token/1TWCIzMurtfdMteYYVceRJrlJ/?name=image.png)\n ![](https://governet.zendesk.com/attachments/token/KifGBDoJoNSaLDvNle7C6Ript/?name=image.png)\n ![](https://governet.zendesk.com/attachments/token/0bLpKmtAsIxFwzdHJMMOLIf3j/?name=image.png)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 37279,
+      "dataset": "spc",
+      "subject": "SPC - Transfer Plan",
+      "description": "Can you find a few minutes today to give me a call please? I was going to wait until our call tomorrow, but Angela asked me to reach out today.\nI\u2019m not sure exactly what the problem is nor even how to explain it easily, especially in writing.  I\u2019d rather talk/walk you through it first.  Then figure out next steps.\nStarting with the report from # 37226 (Historical courses), there are 112 programs listed, and the majority are transfer plans.  When looking at a lot of those transfer plans they have many historical courses.  I don\u2019t know why.\nFor example\u2026FTLIT-TR (id 1145), in the course block under the AA Gen Ed block, you will see many historical versions of the courses.  And, when you open the Program of Study report and click on the course link, the course description is from the historical version of the course\u2026not the most current/active version.  I followed POS 2041 and this historical version is 2 proposal ago\n ![](https://governet.zendesk.com/attachments/token/8kaVueV7wlrHk1f3lEv3VMi8y/?name=inlineImage.png)\nI looked in V2 at the same program (id 1389) at the course blocks, but can\u2019t tell there which version of the course it is using.\n ![](https://governet.zendesk.com/attachments/token/yxWTiVxvHKbmFlWpLGYwFCqpf/?name=inlineImage.png)\nSo I looked at the Look Up Data table for General Education Requirements for the Social Sciences\n ![](https://governet.zendesk.com/attachments/token/8BVgPMrGSA30w2paF6ch7TzOl/?name=inlineImage.png)\n ![](https://governet.zendesk.com/attachments/token/BHiXd2XaPdQY9M62hPmZBOQ2F/?name=inlineImage.png)\nWhen selecting the courses button, it doesn\u2019t see like I can edit (which is probably now correct since V2 is basically inactive).\nWhen you look at the Program of Study, the courses no longer have links, so can\u2019t check there either for the correct course version.\n**So, the question is, how do we fix all the historical courses in the course blocks in Meta?  We have about 89 TRs and all will need to be reviewed.** Granted, the caveat is that some of the courses may truly be historical and there is not active version.  I haven\u2019t had a chance to really dig into this, but also wanted to get with you before spending too much time before we know what is going on.\nCheck the Course Block library, that might be the issue. AA Gen ED requirements.",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 39760,
+      "dataset": "spc",
+      "subject": "COURSES Reports - Course Impact Programs fix (from CS188 / ZD 39053)",
+      "description": "This ticket relates to ticket # 39053. It was not resolved correctly.\nThe COURSE IMPACT report (#419), in the PROGRAMS section should be:\nProgram Title\n(Program Code)\n\u201cStatus\u201d\nEffective Term\nAnd include ALL program statuses:\nDRAFT\nAll APPROVAL workflow statuses\nACTIVE\nHISTORICAL\nwhere Effective Term \u2264 5 yrs\n([term \u2013 75 = past term --- rolling terms]\u2013 EX: 640 through present; 635 through 560, 630 through 555, 625 through 550, etc.)\nList of Programs should be listed in alphabetical order by PROGRAM CODE,\nthen by Effective Term newest to oldest\n(will typically be draft/approval workflow status, then active, then historicals).\nPROGRAMS refers to all program types:  Programs, Transfer Plans, and Articulations.\nACG 2071 (9738) Course Impact report (419) should look something like this:\nAccounting Technology Operations (ACTAP-CT) Active (640)\nAccounting Technology Operations (ACTAP-CT) Historical (625)\nBusiness Administration (BUS-AS) Active (640)\nBusiness Administration (BUS-AS) Historical (625)\nBusiness Administration (BUS-AS) Historical (610)\nBusiness Administration (BUS-AS) Historical (585)\nBusiness Administration (BUS-AS) Historical (625)\nBusiness Administration (BUS-BS) Active (610)\nBusiness Administration (BUS-BS) Historical (625)\nBusiness Administration (BUS-TR) Active (640)\nBusiness Administration (BUS-TR) Historical (610)\nBusiness Administration (BUS-TR) Historical (580)\nFAMU Accounting (FMACC-TR) Active (640)\nFAMU Accounting (FMACC-TR) Historical (610)\nFAMU Accounting (FMACC-TR) Historical (580)\netc\u2026\n(see attachment to see the way the report looks today)\nLet me know if any questions.\nShirley",
+      "signals": {
+        "reasonable_length": true,
+        "has_section_header": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 43301,
+      "dataset": "spc",
+      "subject": "SPC - REPORTS - Program of Study & Comparison - Program - Follow up - #43221",
+      "description": "I would like to request that all our tickets\u2019 status be set to \u201cWaiting on your reply\u201d before deploying to production.  We should have a chance to test/review the work done before deployment.  Otherwise, we will have to ask to have everything posted to the sandbox first.\nThis ticket is (again) a perfect example.\nThe text added is correct and in the right place. However, and this piece is on us, where the effective term is noted, the text (Fall 2022 (610)) should be the same effective term of that specific program.  The verbiage is static; the effective term is dynamic (and is the same term as that specific program).\n  ![](https://acadea.zendesk.com/attachments/token/JMiZ0w8WddPvpScfqX5LcF8SE/?name=inlineImage.jpeg) ![](https://acadea.zendesk.com/attachments/token/4zr53gMEWMzEQAlXMstqfEdyc/?name=inlineImage.jpeg)\n ![](https://acadea.zendesk.com/attachments/token/gpJrjnl96sjwZRoqYzbayyAQC/?name=inlineImage.jpeg)\nWe should have been able to test/review this ticket before put to productuon.  We would have caught this before deployment.  Now we need this fixed ASAP/URGENT as these reports  are student/all users-facing.  Students start classes on Monday so it is imperative it is fixed \u2026like, yesterday.\nI\u2019m OK with it being fixed on production as long as there is someone (you or someone) on your end to double check (QA) this.  (If it can\u2019t be fixed today, then at least put it back the way it was and then have someone fix it on Monday.)\nPlease let me know how soon this can be completed, and how this process will work going forward.\nAlso let me know that you have received this and if any questions.",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Courses": [
+    {
+      "score": 9,
+      "ticket_id": 41817,
+      "dataset": "spc",
+      "subject": "SPC - API - URGENT",
+      "description": "Starts with ticket # 41694 that you submitted 11/14/2024.  There are no comments or anything to indicate this is being worked on.  Please let me know status.  This needs to be fixed ASAP.\nAnd, maybe along with that\u2026\nSince moving to Maverick some more things have come to light that are not working correctly.  This issue may be related to the above or at least indirectly.  The API pull, before V4, was looking\n ![](https://attachments.office.net/owa/NatalieRasmussen%40curriqunet.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGRjYTRiMWRmLTBlYjQtNGFlYS1iOTgzLWUxMWNmMDZhY2FhOQBGAAAAAAC3IGUIFXgSQb01Cdwyu4utBwBEitpw%2FcqlRpeqol2J5eVFAAAAAAEMAABEitpw%2FcqlRpeqol2J5eVFAAVs4axbAAABEgAQAOCt7LKqbkhJorT%2Bv8%2FtYQ4%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IkEzMDVCMkU1Q0ZERjFGQTFBODgyNTU2MzM3NDhCQkNBRTAxNUU5OTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJvd1d5NWNfZkg2R29nbFZqTjBpN3l1QVY2WkkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiOTVlOGM4MGU4NGYzNGMyYjk3ODc2MTE1NzRjNmZjMGIiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGEwYWIwMmUzLWMxYWMtNDI5MC1iYzE5LWE1NGE5OGE1ZTMzMiIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzgwMTExNDkxMTYxNTI5M1wiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcIjhlMzE5ODg1LWZjM2ItNDhmYi1hODBlLTE1MGIzYmMzNTQ1OFwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtMjczNjA3Nzk5LTEwNjg3MjQ1ODUtMjE2OTczMTA2Ni02NjI5OTU2XCJ9IiwibmJmIjoxNzMzNDEwNzE5LCJleHAiOjE3MzM0MTEwMTksImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBhMGFiMDJlMy1jMWFjLTQyOTAtYmMxOS1hNTRhOThhNWUzMzIiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBhMGFiMDJlMy1jMWFjLTQyOTAtYmMxOS1hNTRhOThhNWUzMzIiLCJoYXBwIjoib3dhIn0.FXe7P0kJf1A4FRuueObncM0m9l-XxR4s9MFBQzbcC2Y1C3BiSpmIMrw-PoaNf2ifNonn3jPoBl9ZW8BNsiThdMWyCunxLEabLVRi5zQDpvsBTLiTDLRRMQz-1IdqPVBagwku6WuY7WMRKN54C-4gnvWhianggKjU8jBc6UUjAZgg0hTfFq6nB8sj_qj1GtswTMrOFC0QGT72FTsq8_M7UNoJ0jOxspOBHRqAyopqmG9NuDuckdk7tH3WVNlqDYmR8yxBPe0KKQ__FX748hrK0XHvy0OqyzR86BNGZyhn3iRtCLHncpCdk1XRmJ4BwkhcPbAQQXcDtJ4dAMIsa4o3Lw&X-OWA-CANARY=X-OWA-CANARY_cookie_is_null_or_empty&owa=outlook.office.com&scriptVer=20241115003.29&clientId=1AC3B920125145CDB5D277CC73A7F24E&animation=true&persistenceId=9ef28c8f-77c7-4417-aada-45903bfe05c9)\nNow with V4 it is not returning with the correct alpha characters \u2013 \u201cL\u201d, \u201cC\u201d, \u201cH\u201d, \u201cCH\u201d, etc.  Did something change here too?\n ![](https://governet.zendesk.com/attachments/token/UohhHdRiT6J7hheh3p4o8bOfA/?name=inlineImage.png)\nCould it have to do with this\u2026the SYSTEM COURSE NUMBER field that auto-populates (and is I think is new in V4)?  Which this example is the same as in the ticket mentioned at the top.\n ![](https://governet.zendesk.com/attachments/token/ibDzqYDB9uSDdGzh3FWRR1UJR/?name=inlineImage.png)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "specific_date": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 44755,
+      "dataset": "spc",
+      "subject": "SPC - URGENT  Course requisite and level 500 errors etc. Credentials",
+      "description": "**SEE ATTACHED PDF FOR FULL DETAILS IN THE EMAIL THREAD.**\nAngela and Troy,\nI think we have a multi-level issue going on here.  Please note that I\u2019ve received the same 500-level errors when stepping thru the code, but everything from this point in the email is a reference to Postman.\nLIVE: https://mws.services.curriqunet.com/scripts/webservices/generic_meta/clients/versions/v5/stpetersburg.cfc?method=getEntityData\nTEST: https://mwsdev.services.curriqunet.com/scripts/webservices/generic_meta/clients/versions/v5/stpetersburg.cfc?method=getEntityData\nUsername: stevens.paul@spcollege.edu\nMAC2311\nLIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support.\nTEST: 200 - Okay\nDEP2004\nLIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support.\nTEST: 500 - An internal error occurred -- RequestId: 8000b248-0007-fb00-b63f-84710c7967bb; Exception message: Expected to find column AACodeId in entity data for table CourseAACode, but did not.\nDEP2102\nLIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support.\nTEST: 500 - An internal error occurred -- RequestId: 80026be5-0007-e600-b63f-84710c7967bb; Exception message: Expected to find column AACodeId in entity data for table CourseAACode, but did not.\nCLP2140\nLIVE: 500 - An internal error occcured, please reference RequestId 8000300c-0001-df00-b63f-84710c7967bb when contacting support.\nTEST: 500 - An internal error occurred -- RequestId: 8002ec95-0001-db00-b63f-84710c7967bb; Exception message: Expected to find column AACodeId in entity data for table CourseAACode, but did not.\nAnd so on\u2026\nBased on past issues, I would bet that the admin access associated with my credentials has been reset again (the CN team can confirm whether or not that\u2019s the case).  The GUID return codes mean nothing to us, but the type of error message we\u2019re seeing associated with them in the test environment suggest an issue with at the CN database level (which we have no control over).\nIf there\u2019s an escalation path we can follow, that would be great.  If it\u2019s as simple a problem as I think it is (credentials), we should be able to wrap this today.\nThanks,\nPaul",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 36577,
+      "dataset": "spc",
+      "subject": "SPC - Approval Workflows",
+      "description": "Hi Natalie\u2026\n**HIGH IMPORTANCE**\nWe are having some issues with the Courses Approval  Workflows. We have a C&I Committee meeting next Friday to the members in their part of this process and we are running into snags. Please review the info below ASAP.  **Would like fixed no later then end of day Wednesday.** We will need Thursday to do color group assignments and make any other adjustments.\nAngela is available for a phone call this afternoon until 5:00 (or Monday morning is your office is working on Monday) my time for any questions or need clarity on the info below.\nApproval Workflows\n11 Courses have been approved at level 2 Tech Review and are in Level 3 and waiting C&I Color group assignment. However, only 2 courses have been assigned a color group.\n ![](https://governet.zendesk.com/attachments/token/VpF25Ztm4Pjf6nVb0mGvABsdt/?name=inlineImage.jpeg)\nATE 2612 has been assigned the Blue group\n ![](https://governet.zendesk.com/attachments/token/z8wTdjOnYiMdUSeALx5m0ZYQj/?name=inlineImage.png)\nPHI 2642 is assigned to the Green Group\nLogged in as a C&I member of the Red Group\ncandi@spcollege.edu\nchangeme1\nAll the courses sitting at the level above is showing the Position of C&I Red Group.  Why is this?\nShouldn\u2019t this be blank until a color group has actually been assigned?\nThe 2 courses that have a different color group (noted above) are showing as Red Group.  Why is this?\nThe C&I Committee member should only see courses assigned to their specific group (unless course set to all).  And they should not see them in Approvals until that color has been assigned to the course.\nSo for the user above, Candi should not be seeing any courses/approvals as none are assigned to her/red.\n**Shirley Boyette**\n_Research/Curriculum Analyst_\nCurriculum Services | EPI Tech\n727.341.3041 | boyette.shirley@spcollege.edu",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 37614,
+      "dataset": "spc",
+      "subject": "SPC - Follow up on 37575 and 37588 - URGENT",
+      "description": "This Course Requisite issue is still not fixed.  Tickets 37575 and 37588.\n**EEC 4941 (#9630)**\n ![](https://governet.zendesk.com/attachments/token/EYzAI2qOPuYUssKRaUhQQDtxc/?name=inlineImage.jpeg)\n**Should look like this\u2026**\n(Admission to Educational Studies and Community Leadership (Bachelor of Science) (EDST-BS)\nPreschool Education (Birth to Age 4) Subplan and\nPrerequisite EEC 3204 with a minimum grade of C) or\n(Admission to Prekindergarten/Primary\u2026..(PKPED-BS) and\nPrerequisite EEC 4940 with a minimum grade of C and\nPre- or Co-requisite EEC 4211 with a minimum grade of C) and\nSuccessful completion of the professional Education (FTCE) Exam\n**HSC 1524 (#9589)**\n ![](https://governet.zendesk.com/attachments/token/Mb5je1ZqcuxthNkD2INH73uHh/?name=inlineImage.jpeg)\n**Should look like this\u2026**\n(Developmental math met or\nSatisfactory score on the college placement test) and\nPrerequisite ENC 1101 with a minimum grade of C and\n(Prerequisite BSC 2085 with a minimum grade of C and\nPrerequisite BSC 2085L with a minimum grade of C) or\nPrerequisite BSC 1084C with a minimum grade of C",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 37575,
+      "dataset": "spc",
+      "subject": "SPC - Courses > Requisites > PARENTHESES ERROR - URGENT",
+      "description": "Not sure if something is going with our system today.  Not sure if I need to put in a ticket or not, but right in the middle of something and can\u2019t get exact details and didn\u2019t want to wait until our call tomorrow.\nFor Courses > Requisites\u2026the parentheses are not working or working correctly. This was working good until today. Need fixed URGENTLY.\nAndrijana is working on course HSC 1524 (#9503) active version and trying update the requisites; and #9589 that is in the workflow and adding the requisites. We can\u2019t get the parens to display or to display correctly.\nShould look like this:\n ![](https://governet.zendesk.com/attachments/token/9da8uxoGoFf6RXlzgbFPa3CE7/?name=inlineImage.jpeg)\nI also was trying to enter requisites using a test course MAN 9999 (ID 9585)\n ![](https://governet.zendesk.com/attachments/token/JgSnUVHg55bFWe0lkLs9oYuaR/?name=inlineImage.jpeg)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Other": [
+    {
+      "score": 7,
+      "ticket_id": 36290,
+      "dataset": "spc",
+      "subject": "Update User - Bighem-Moore",
+      "description": "Will you please have someone deactivate and reactivate a User?\nLatresha Bighem-Moore\nBighemMoore.latresha@spcollege.edu ![](https://jira.services.curriqunet.com/images/icons/mail_small.gif)\nDeactivate the orange highlight (BinghemMoore) and reactivate the green highlight (BighemMoore).\nPassword should still be changeme1.",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 7,
+      "ticket_id": 43743,
+      "dataset": "armando",
+      "subject": "VVC - Assist - Getting an Error",
+      "description": "Everytime she goes to import to Assist, she is getting and error message. She has tried multiple browsers. When checking with Aswsist, they said it is on our end.\n ![](https://acadea.zendesk.com/attachments/token/2ayojCjdK5C7jx8nzk3s3SP5y/?name=image.png)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 7,
+      "ticket_id": 44383,
+      "dataset": "craig",
+      "subject": "New TOP and CIP Crosswalk",
+      "description": "California CCCCO webinar on 02/04/26. California has provided a new crosswalk https://www.cccco.edu/About-Us/Chancellors-Office/Divisions/Educational-Services-and-Support/TOP-to-CIP-Code-Transition-Project",
+      "signals": {
+        "reasonable_length": true,
+        "includes_url": true,
+        "specific_date": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 36839,
+      "dataset": "spc",
+      "subject": "Assistance for API question",
+      "description": "We are working on our API and trying to test but have these questions:\nDo we have a new or different production endpoint (or endpoints) for making API calls?\nWe were using this endpoint originally to test:\nhttps://securedev.curricunet.com/scripts/webservices/generic_meta/clients/versions/v5/\nWe were advised that the response time would be better if we used THIS endpoint:\nhttps://mwsdev.services.curriqunet.com/scripts/webservices/generic_meta/clients/versions/v5/\nProvided documentation suggests this is the production endpoint:\nhttps://secure.curriqunet.com/scripts/webservices/generic_meta/clients/versions/v5/\nBut that\u2019s not working.  Is there some other endpoint we need to use for production?",
+      "signals": {
+        "reasonable_length": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 19734,
+      "dataset": "spc",
+      "subject": "Webservices not working",
+      "description": "Scripts using the webservice that were working, are now not.  The behavior is inconsistent.  Most frequently we receive a \"Request Timed Out\" trying to access 'http://www.curricunet.com/scripts/webservices/stpetersburg/spc_webservices.cfc?WSDL'.  Occasionally the script will execute, but no results are returned.",
+      "signals": {
+        "reasonable_length": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Programs": [
+    {
+      "score": 9,
+      "ticket_id": 19087,
+      "dataset": "spc",
+      "subject": "St. Petersburg Web services",
+      "description": "[image: .]\nHello Bill,\nThe St. Petersburg project has been moved over to our Maintenance\nDepartment. Travis is the manager of that Department and I have included\nhim on this email. Please work with him to make any additional changes or\nupdates to the webservices.\nThanks,\n[image: from]\nJared Pratt\n*Development Manager*\n*Governet*\n1000 River Walk Drive, Suite 350\nIdaho Falls, ID 83402\n208.522.1225 | Office\n208.522.2896 | Fax\njpratt@governet.net\nhttp://www.governet.net/\n*Building the Worldwide Curriculum Network  *\n*From:* Bill Bliss [mailto:Bliss.Bill@spcollege.edu]\n*Sent:* Friday, May 24, 2013 1:39 PM\n*To:* Jared Pratt; Timothy McDowell\n*Cc:* Margaret Bowman; Angela Ashe\n*Subject:* RE: St. Petersburg CurricUNET move to Maintenance/Support\nHello Jared,\nI\u2019ve started looking at the web service functions provided.  I'm sorry to\nsay they are not working as expected.  I have not gone through all of them,\nbut the first 2 I tried were not working, so I stopped.\nThe ones I tried are the \"GET_PROGRAM_COURSE_BLOCK\" function, which seems\nto be returning mostly the \"GET_PROGRAM_DATA\" information (but not all of\nit), and the \"GET_PROGRAM_DATA\" function, which returns an error:* Function\n(\"GET_PROGRAM_DATA\") is not a valid method for this service*.  Looking at\nthe WSDL confirms that.\nThe way all of these functions have been constructed seems rather\nrestrictive, especially on how we can pull filtered information.  For\nexample, let us suppose there are several degree programs offered by the\n\u201cCollege of Business\u201d (CoB).   The program information contains the\n\u201cCollege of Business\u201d in the COLLEGE_SCHOOL_DEPARTMENT field \u2013 however,\nthat field is not one I can use to filter requests.  If I wanted to\ngenerate a list of those programs, I would have to get a list of all\nprograms, then manually parse out the ones associated with the  CoB.  It\nwould certainly be easier for me if I could define my parameters in an\narray to be passed in the SOAP call.  I realize this would require\ncompletely rewriting what you\u2019ve done \u2013 but I hope you will consider it for\nfuture modifications.  Until then\u2026\nFor the Course functions, please re-order the arguments to:\nPrefix\nCourse_number\nStatus\nCurricunet_id\nand if the Status argument could default to whatever value represents\nActive, that would be great. Then we only need to specify the prefix and\ncourse number \u2013 which is our natural way of searching for courses.\nSince \u201ccurricunet_id\u201d is an identifier that is internal to your product,\nI\u2019m not sure how we would ever use it in our applications.  It would be\nfine with me if you could just eliminate it \u2013 but moving it to the end\neffectively makes it ignorable, so that would work, too.  This applies to\nthe program functions, too.\nA service that gives us access to just the basic course info would be\nhelpful \u2013 something that returns the course title, number of credits, and\ndescription when given the course prefix and (optionally) course_number\nwould be ideal.\nHere are some examples of how we use the course data from our existing\nsystem:\n\u00b7         To generate a list of all courses where the prefix begins with a\nspecific letter: http://www.spcollege.edu/courses/prefix/A\n\u00b7         To generate a list of all courses with a specific prefix:\nhttp://www.spcollege.edu/courses/prefix/ACG\n\u00b7         To list a specific course:\nhttp://www.spcollege.edu/popcourse/acg-2021\nAs I\u2019ve mentioned, my goal is to use the data from CurricuNet to display on\nour public web site with similar functionality as our current system.\nAnother example of how we would use this data, this one a program\ndescription output, is http://www.spcollege.edu/courses/program/BUS-BS.  It\nwas recently pointed out to me that your system can generate something\nsimilar.  If you could provide us with a simple service whereby we can get\nthat output \u2013 a basic program description similar to what we already have \u2013\nthat would be excellent.  It looks like (once the program functions are\nworking) we could build that kind of an output, but it would certainly be\nsimpler if we could just request the description for \u201cBUS-BS\u201d and then just\nworry about handling the display.  Since your product already generates\nthat kind of output, I hope it won\u2019t be too difficult to incorporate into\nthese functions.\nThanks for your time and effort.\nBill Bliss\nManager, Web Programming & Support\nWeb & Instructional Tech.\nSt. Petersburg College\nPhone: 727.394.6226\n*From:* Timothy McDowell\n[mailto:tmcdowell@governet.net ]\n*Sent:* Wednesday, April 03, 2013 10:39 AM\n*To:* Bill Bliss; Jared Pratt; Leigh Goldberg Hopf; Margaret Bowman; Angela\nAshe\n*Cc:* Travis Hillyard; Todd Andersen\n*Subject:* RE: St. Petersburg CurricUNET move to Maintenance/Support\n[image: From]\n[image: Governet]\n[image: .]\nGood morning, Bill,\nJared\u2019s team has worked on completing an updated web service for St.\nPetersburg. Please see the attached document and direct further questions\nto Jared.\nThank you,\n[image: clip_image003]\nTimothy McDowell\n*Project Manager/Training and Development Administrator*\n*Governet*\n1000 River Walk Drive, Suite 350\nIdaho Falls, ID 83402\n208.522.1225 | Office\n208.522.2896 | Fax\ntmcdowell@governet.net\nhttp://www.governet.net/\n*Building the Worldwide Curriculum Network  *\n*From:* Bill Bliss [mailto:Bliss.Bill@spcollege.edu]\n*Sent:* Wednesday, April 03, 2013 5:38 AM\n*To:* Jared Pratt; Leigh Goldberg Hopf; Margaret Bowman; Angela Ashe\n*Cc:* Travis Hillyard; Todd Andersen; Timothy McDowell\n*Subject:* Re: St. Petersburg CurricUNET move to Maintenance/Support\nJared,\nIn early January, I was exchanging emails with you regarding web services\n(see below).  Since 1/16, I have not received any further information \u2013 let\nalone complete documentation on accessing the CurricuNet web services.  I\nbelieve Leigh also followed up on this in March.\nIs that phase still in development, or should I now work with your support\nteam to implement access to the data?\nThanks,\nBill Bliss\nManager, Web Programming & Support\nWeb & Instructional Tech.\nSt. Petersburg College\nPhone: 727.394.6226\n*From:* Bill Bliss\n*Sent:* Wednesday, January 16, 2013 10:16 AM\n*To:* 'Jared Pratt'\n*Cc:* Leigh Goldberg Hopf\n*Subject:* RE: Follow-up to conference call about web services\nHello Jared,\nThis is much more helpful than the WSDL file \u2013 thanks.  The concise\ndescriptions of the parameters and their expected values/formats is just\nwhat we need.\nWhen you send the next iteration, rather than inserting a screen-shot of\nthe XML returned (which is very difficult for me to read), a description of\nthe recordset would be more helpful.  To use the \u201cgetCourses\u201d example, it\nwould be helpful to have something along the lines of:\nThe output for getCourses contains:\nCount_Retake_Credit (\u201cYes\u201d or \u201cNo\u201d)\nCount_Retake_Times (integer)\nCourses_ID (Curricunet internal ID: integer)\nCourse_Number (Institutional course number, without prefix, e.g. 1101 or\n1101H)\nCourse_Status (\u201cActive\u201d \u201cPending\u201d or \u201cHistorical\u201d)\nAnd so forth\u2026\nFinally \u2013 a brief description of non-obvious expected behavior for each\nmethod would be helpful.  For example, in the getCourses method, all the\nparameters are marked as optional.  The obvious expected behavior is that,\nif I enter only a single \u201cCourses_ID\u201d value, I will get that one record.\nLikewise if I enter only a \u201cSTATUS\u201d value, I will get all records with that\nstatus.  But what happens when I set no parameters?  That is what I mean by\nnon-obvious.  Do I get every single record, or do I get none?\nThis part is, I admit, a little picky \u2013 but it\u2019s one of my personal\npeeves:  It would be nice if the method and parameter names were\nconsistent.  For example, make the naming convention for methods either\ncamel case (\u201cgetCourses\u201d) or underscored (\u201cget_requisites\u201d) \u2013 not both.\nLikewise, decide whether parameters should be all caps (as with getCourses)\nor all lower-case (as with all the others).\nI look forward to seeing the next round of documentation.\nBill Bliss\nManager, Web Programming & Support\nWeb & Instructional Tech.\nSt. Petersburg College\nPhone: 727.394.6226\n*From:* Jared Pratt [mailto:jpratt@governet.net  ]\n*Sent:* Tuesday, January 15, 2013 11:37 AM\n*To:* Bill Bliss\n*Cc:* Leigh Goldberg Hopf\n*Subject:* RE: Follow-up to conference call about web services\n[image: .]\nAttached is some additional documentation on our default web service. These\nweb services can be configured with some additional methods and parameters\nto meet your needs.\nThanks,\n[image: from]\nJared Pratt\n*Development Manager*\n*Governet*\n1000 River Walk Drive, Suite 350\nIdaho Falls, ID 83402\n208.522.1225 | Office\n208.522.2896 | Fax\njpratt@governet.net\nhttp://www.governet.net/\n*Building the Worldwide Curriculum Network  *\n*From:* Bill Bliss [mailto:Bliss.Bill@spcollege.edu]\n*Sent:* Thursday, January 10, 2013 6:14 AM\n*To:* Jared Pratt (jpratt@governet.net)\n*Cc:* Leigh Goldberg Hopf\n*Subject:* RE: Follow-up to conference call about web services\nHello Jared,\nThank you for sending the WSDL file for your web services.  Unfortunately,\nyou didn\u2019t include any documentation detailing the functionality and\nutilization.  While it is helpful to know, for example, that the parameters\nCOURSES_ID, STATUS, DISCIPLINE, and COURSE_NUMBER are needed to access the\noperation \u201cgetCourses\u201d \u2013 we have no idea what those parameters should\ncontain (other than a string), or in what format.  To me, a valid\nCOURSES_ID is \u2018ENC-1101\u2019 \u2013 but I don\u2019t have any way of knowing from the\nWSDL file what your service is expecting.\nLikewise, we have no idea what to expect as returns for the various\noperations.  We could certainly do a test on each one, but it would be much\nless time consuming if you could provide that information.\nAlso, I\u2019m sure there is some kind of authentication required to access this\ndata, but I don\u2019t see that in your email, and I\u2019m not seeing any indication\nof it in the WSDL file.\nThank you,\nBill Bliss\nManager, Web Programming & Support\nWeb & Instructional Tech.\nSt. Petersburg College\nPhone: 727.394.6226\n*From:* Leigh Goldberg Hopf\n*Sent:* Thursday, January 10, 2013 7:43 AM\n*To:* Bill Bliss\n*Cc:* Jared Pratt (jpratt@governet.net)\n*Subject:* FW: Follow-up to conference call about web services\nBill,\nAttached you will find the web services info that Jared has provided\u2014as a\nfollow-up to our call in December.  I have copied him on this email too\u2014in\ncase there are additional questions that you have, after your review.\nGive me a call, or email, and we will find a time to chat.\nThanks,\nLeigh\nLeigh Hopf\nDirector, Institutional Research\nSt. Petersburg College\nPhone: 727.341.3383\n*From:* Jared Pratt [mailto:jpratt@governet.net  ]\n*Sent:* Wednesday, January 09, 2013 6:07 PM\n*To:* Leigh Goldberg Hopf\n*Cc:* Timothy McDowell; Kathleen DeSousa\n*Subject:* RE: Follow-up to conference call about web services\n[image: .]\nHello,\nI have attached the typical WSDL. I did modify it and replace the previous\ncollege information with \u201cstpetersburg\u201d so you can see that this is a\ntypical webservice call. This WSDL shows you what methods and parameters\nyou have to get the data that you need. We can customize this to have\nmultiple method calls and additional prameters if needed. Your IT staff\nwill need to create an interface that consumes this service, calls the\nnecessary methods to extract the data that you need. The data is extracted\ninto xml format which they should be able to do about anything with.\nI hope this helps. Once we are finished loading your data we can get a\nbasic webservice put in place for you to test this.\nThanks,\n[image: from]\nJared Pratt\n*Development Manager*\n*Governet*\n1000 River Walk Drive, Suite 350\nIdaho Falls, ID 83402\n208.522.1225 | Office\n208.522.2896 | Fax\njpratt@governet.net\nhttp://www.governet.net/\n*Building the Worldwide Curriculum Network  *\n*From:* Leigh Goldberg Hopf [mailto:Goldberg.Leigh@spcollege.edu]\n*Sent:* Tuesday, January 08, 2013 4:19 PM\n*To:* Jared Pratt (jpratt@governet.net)\n*Cc:* Timothy McDowell (tmcdowell@governet.net); Kathleen DeSousa\n*Subject:* Follow-up to conference call about web services\nHello there!\nI am following-up on our conference call in mid-December concerning the web\nservice options that you offer.  You mentioned that you would be sending a\ndocument outlining the details.  It may have gotten caught in our spam\nfilter\u2014so if you already sent it, would you mind resending it?\nThanks so much,\nLeigh\nLeigh Hopf\nDirector, Institutional Research\nSt. Petersburg College\nPhone: 727.341.3383\n--\n[image: From]\n[image: Governet]\n[image: .]\nBest regards,\nTravis Hillyard\n*Customer Service Manager*\n*\n*\n*Governet*\n1000 Riverwalk Drive\nSuite 350\nIdaho Falls, ID 83402\n208.534.7901\ntravish@governet.net\nwww.governet.net\n*Building the Worldwide Curriculum Network  *",
+      "signals": {
+        "has_section_header": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 36599,
+      "dataset": "spc",
+      "subject": "SPC - Workflows and Sandbox - UYRGENT - DUE 01/19",
+      "description": "In looking at both the workflows and C&I color groups we are still experiencing problems. I have not had a chance to check everything against the ticket and what was talked about this morning, but below is what I have checked. We\u2019ll need everything completed from Zendesk ticket 36577 and everything that was talked about this morning. Our C&I Committee meets tomorrow morning, so we are in a time crunch for being able to have this all ready and working for them. Once these are all fixed in production we will need another refresh to the sandbox, please.\n1. **Workflows **\u2013 please see the screenshots in the email trail below.\n1. **C&I Color Groups** \u2013 Tested in sandbox\n- candi@spcollege.edu was assigned C&I Yellow Group\n- I changed ATE 2612 from blue assignment to yellow, this was the only course assigned to yellow but all these other courses still come up as well.\n- Also, it seems to only be pulling in certain courses due to workflow issues and not pulling everything that has gone through our Level 2 Technical Review.\n  - E.g., CJE 2645 (was approved in prod tech review 1/10/23), DEH 2804L (was approved in prod tech review 1/12/2023)\n![](https://governet.zendesk.com/attachments/token/XbhCb4LvWeGxnPfFqANI8mQzs/?name=inlineImage.png)\n- I then tested the disapproval on ATE 2612 and it did the same as before, changing all the other member actions to \u201cWaiting on Changes\u201d which makes the proposal disappear for all others but doesn\u2019t move it. It also adds the Pending Originator Changes text at the top and marks the originator\u2019s action (Natavia Middleton) as \u201cPending.\u201d\n![](https://governet.zendesk.com/attachments/token/MANfqJa1EWKudi5sXhqLZrE11/?name=inlineImage.png)\n**Subject:** RE: Workflows and Sandbox\n**WORKFLOWS**\nI logged out and logged back in to check the workflows, haven\u2019t looked deep into them but from a quick glance **Major Course Mods** still doesn\u2019t show the update..\n ![](https://governet.zendesk.com/attachments/token/LBhntTAt3spfyJLhYw9wtRsqQ/?name=inlineImage.jpeg)\n ![](https://governet.zendesk.com/attachments/token/wJI4ACZBENW1bap8cgeLatFHr/?name=inlineImage.jpeg)\n**Current Minor Course Mod** also looks older i.e., the names/positions.\n ![](https://governet.zendesk.com/attachments/token/kOZoQsiP3IVdpaKmFQrXQC2mZ/?name=inlineImage.jpeg)\n**New Course** shows it was updated and the status is in there but the positions we had are back to saying \u201cCurriculum Services\u201d instead of \u201cTechnical Review #1, #2\u201d, \u201cBOT\u201d, \u201cImplementation\u201d and Level titles didn\u2019t pull in. Not a big deal as long as the flow and statuses are correct but I know for a fact Shirley and I worked on these together and made these changes in real time so not sure what\u2019s going on in that sense.\n ![](https://governet.zendesk.com/attachments/token/3Jr3KGhPvo7bMWGliwwqUc3eM/?name=inlineImage.jpeg)\n ![](https://governet.zendesk.com/attachments/token/bcAPKQrcwk7bprx0MuueFwGGI/?name=inlineImage.jpeg)\n* * *\n_**In regards to HUS Course Workflow Ticket #36594 New Workflows not being used \u2013 will add directly into Zendesk ticket as well**_\n_**What it\u2019s following:**_\n ![](https://governet.zendesk.com/attachments/token/UsE2K5nnvNhZwQ2qsux9tGoBb/?name=inlineImage.png)\n_**What it should be following:**_\n ![](https://governet.zendesk.com/attachments/token/vzSKghFD1yCa6roGxzNycubtO/?name=inlineImage.png)",
+      "signals": {
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "specific_date": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 38236,
+      "dataset": "spc",
+      "subject": "Re: SPC - Course Attributes #37997 NOT SOLVED",
+      "description": "This has been taken care of for all proposals movingforward, but it needs to be done for ALL proposals in SPC.\nI\u2019m using PROD on FF and Chrome (and cleared cache too).  I am looking at MAN 9999, which is my testing course, and is still not correct.  I also review an active course, BOT 3015, and the COR is not correct either\n ![](https://attachments.office.net/owa/NatalieRasmussen%40curriqunet.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGRjYTRiMWRmLTBlYjQtNGFlYS1iOTgzLWUxMWNmMDZhY2FhOQBGAAAAAAC3IGUIFXgSQb01Cdwyu4utBwBEitpw%2FcqlRpeqol2J5eVFAAAAAAEMAABEitpw%2FcqlRpeqol2J5eVFAARIAzpmAAABEgAQAOEYux21jZ9NmM7uxbwFAaQ%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjczRkI5QkJFRjYzNjc4RDRGN0U4NEI0NDBCQUJCMTJBMzM5RDlGOTgiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjX3VidnZZMmVOVDM2RXRFQzZ1eEtqT2RuNWcifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiZjIzNjUxNDhhNTZlNDUwNGFmNzI2YjJlZjcxY2RjYTciLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGEwYWIwMmUzLWMxYWMtNDI5MC1iYzE5LWE1NGE5OGE1ZTMzMiIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzgwMTExNDkxMTYxNTI5M1wiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcIjhlMzE5ODg1LWZjM2ItNDhmYi1hODBlLTE1MGIzYmMzNTQ1OFwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtMjczNjA3Nzk5LTEwNjg3MjQ1ODUtMjE2OTczMTA2Ni02NjI5OTU2XCJ9IiwibmJmIjoxNjk1NjY4Mzg4LCJleHAiOjE2OTU2Njg5ODgsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBhMGFiMDJlMy1jMWFjLTQyOTAtYmMxOS1hNTRhOThhNWUzMzIiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBhMGFiMDJlMy1jMWFjLTQyOTAtYmMxOS1hNTRhOThhNWUzMzIiLCJoYXBwIjoib3dhIn0.J2QHJLRXlgcKt-4jrupvosG1SHIeaip4gnnEA3rAdI4w2ls_RF0gJy_nzpkMjFEOb7HTxGMSLVbIjBFN3fkL8u0mgUjAUlZaA4UHFxHJcSpuONqHDp-NOF2H5SxW4xqzwvxDiZw9Qkay4ksO0bXBTdKZ6jp-MPDxXpLr1lNgi7Cd5f3Wbq5iHCcbpr8ny1nJCq4Re9n34rCWZzJ7SPwY3FkTqpH4U0yY2GDwWibbWZ1WrawiJRoZPpnOhiEtimgRisRW1YDPqj_TdDkOyv-McYyOjpDT5--NTx8vFs94XHQeND9GmVuOIqxr55-f8WOaMSGXHzl9WDOqXKGnaFelfQ&X-OWA-CANARY=WUeruorI80Slgi7uHj5fBWBIktz5vdsYvO631AKOoaYH2X3Ozv3EuaYP90WXWytJJX0f_0UxvkE.&owa=outlook.office.com&scriptVer=20230915006.14&animation=true&persistenceId=9ef28c8f-77c7-4417-aada-45903bfe05c9)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 37804,
+      "dataset": "spc",
+      "subject": "SPC - Catlog - URGENT - NEEDS TO BE COMPLETED TODAY",
+      "description": "Something else I\u2019m noticing when adding new programs or modifications to the catalog, is that the entire Program Summary is not being pulled in. Specifically, the Academic Pathway paragraphs with the PW links. This info is the static paragraphs that are in the background.\nFor the example below, the Acad PW paragraphs came over from V2 so it shows up in the Program Summary field on the Description tab in the proposal.  Whereas a new or modification done in Meta, has this paragraph in the background so is not editable. How do we get this included in the Summary in the Catalog? This is the only place to get the PW link for these programs.\n**Can it be fixed today???**\n**DIGFORN-AS   before the edit\u2026**\n ![](https://governet.zendesk.com/attachments/token/sJzr4cHm9no2aCjDH7AKHdSdb/?name=inlineImage.jpeg)\n**DIGFORN-AS   after the edit\u2026**\n ![](https://governet.zendesk.com/attachments/token/4Ib8i6UnddRGI3dgp1uaygEA1/?name=inlineImage.jpeg)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 8,
+      "ticket_id": 37810,
+      "dataset": "spc",
+      "subject": "SPC - Catalog - Contents  - URGENT",
+      "description": "Found something else for the Catalog.  When downloading the entire catalog and the Table of Contents is generated, the page numbering is off a little.\nContents is showing as Page 2 and Welcome is also showing as Page 2 but the number at bottom of page is 3. About St. Petersburg College is correct starting on page 6.\nPage 3 needs to be corrected.\n(Side note:  I removed from the PDF the entire Programs by Degree Type page so it\u2019s about 544 pages and takes only about 3 minutes to download.)\n ![](https://governet.zendesk.com/attachments/token/VLqPnjLSoYWFcZdWragUqudB2/?name=inlineImage.jpeg)\n ![](https://governet.zendesk.com/attachments/token/Z2yi0QHV4SEyRGMnLkam7aQup/?name=inlineImage.jpeg)\n ![](https://governet.zendesk.com/attachments/token/5NUsYr1pZcPyaTY1fAHCJCcc1/?name=inlineImage.jpeg)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Admin": [
+    {
+      "score": 6,
+      "ticket_id": 39886,
+      "dataset": "craig",
+      "subject": "Repetitive Actions",
+      "description": "Hello,\nIn the attached screenshot, you can see that under Take action as an administrator, I can select Articulation Officer, Articulation Officer - Revisions Requested, and Articulation Officer - Support. The last two options send you to the same screen as the first option - just Articulation Officer. Since the other two are repetitive and redundant, can you please remove them? This occurs at every Step, so they can just be removed for all participants.",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 28272,
+      "dataset": "spc",
+      "subject": "Error on modifying MLOs",
+      "description": "When trying to modify MLOs on EMS 2601 we are receiving the error:  \"We're Sorry! An error has occurred. The details of this error have been emailed to the web site administrator.\"  The user errantly structured the MLOs but we cannot get into it to correct. Thanks!",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 37331,
+      "dataset": "spc",
+      "subject": "SPC - Lookups",
+      "description": "We need to go through each lookup in the Admin area and make sure it is working correctly and is showing on the forms correctly.\nBack in February, they added a value to Which summarizes the reason for your submission? - this is lookup never appeared in the forms. Need to test them all, some of some odd dates (1960) that do not seem right.",
+      "signals": {
+        "reasonable_length": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 44319,
+      "dataset": "spc",
+      "subject": "SPC URGENT API access",
+      "description": "permissions for Paul Stevens at SPC for making API calls seem to have been stripped again.\u00a0 Could you please reinstate them? Could also be a firewall issue.\u00a0 I\u2019m using the same credentials as our job in production, but I\u2019m getting a timeout on my end.\u00a0 If it helps, my current IP address is 68.200.178.122.",
+      "signals": {
+        "reasonable_length": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 40031,
+      "dataset": "craig",
+      "subject": "Administration of Justice AST Active Missing",
+      "description": "The Fall 2021 effective Active version of the Administration of Justice AST is missing from CurrIQunet. It is in V2...",
+      "signals": {
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Catalog": [
+    {
+      "score": 7,
+      "ticket_id": 37326,
+      "dataset": "spc",
+      "subject": "SPC - Adding a Image",
+      "description": "Go to the Welcom tab and you will see a link.\nhttps://blog.spcollege.edu/president/wp-content/uploads/sites/45/2022/10/TonjuaWilliams-241x300.jpg\nThis link is a picture and we want the picture to show on the page. I got with Heather and we both tried to figure this out, it seems like the image in the RTE is not working like it should. We need to either correct this or provide instructions and screen shots to SPC on how to add a picture inside the catalog with a link.\n ![](https://blog.spcollege.edu/president/wp-content/uploads/sites/45/2022/10/TonjuaWilliams-241x300.jpg\u00a0)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 36724,
+      "dataset": "spc",
+      "subject": "SPC - Semester/term table - URGENT",
+      "description": "We need to add the following semesters for SPC to use.\nHere is the information that I need you to have added to the table.\n**Title** **CatalogYear** **Code**\nSpring 2027 (675) 2027 675\nSummer 2027 (680) 2027 680\nFall 2027 (685) 2027 685\nSpring 2028 (690) 2028 690\nSummer 2028 (695) 2028 695\nFall 2028 (700) 2028 700\nSpring 2029 (705) 2029 705\nSummer 2029 (710) 2029 710\nI would like to have the table updated ASAP please.",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 42766,
+      "dataset": "spc",
+      "subject": "URGENT Catalog is not accessible",
+      "description": "URGENT\nThe active catalog is not accessible (outside of the module). Form will open but no content....on PC and mobile phones.  Catalog link...\nhttps://stpetersburg.curriqunet.com/catalog/alias/25-26acadcataglo/iq/9548\nEven if clear cache, still no content.\nPlease  check ASAP.\nThanks!\n~S",
+      "signals": {
+        "reasonable_length": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 42338,
+      "dataset": "spc",
+      "subject": "Articulations Catalog - add \"Download Catalog\"",
+      "description": "For the Articulations Catalog (active and going forward), please add the \"Download Catalog to PDF\" option/page to the Menu. Also, generate a Table of Contents to be included.\nIs it possible to have this completed by Tuesday, March 11th???\nThanks!\n~S",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 38602,
+      "dataset": "spc",
+      "subject": "ARTICULATIONS CATALOG - published - URL",
+      "description": "We launched the ARTICULATIONS CATALOG this morning, which is different from our academic catalog, and didn't realize the published URL is the same.\nPlease make the active Articulations Catalog back to draft. And we need to make sure that the active URL for the Academic College Catalog is working correctly.\nThen will need assistance is how to publish the different catalogs with different URLs.  NEED TO DO THIS ASAP.\nThanks!\n~S",
+      "signals": {
+        "reasonable_length": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Workflow": [
+    {
+      "score": 7,
+      "ticket_id": 37910,
+      "dataset": "spc",
+      "subject": "WORKFLOW - Transfer Plans following old workflow",
+      "description": "I updated and activated the workflows for transfer plans today (8/14) and tested it but it's still following the old workflow process. Please see attached ticket and screenshots for more details.\nWe need to launch some transfer plans so I\u2019m marking this ticket as urgent.",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 7,
+      "ticket_id": 44323,
+      "dataset": "armando",
+      "subject": "VVC - Water Treatment Leverl I & II",
+      "description": "We need to look at this workflow. Liisa Harvey and and Scott Jones are showing required as Curriculum Area Representative and they are not for this Division or Deparment.\n  ![](https://acadea.zendesk.com/attachments/token/p4HhFswIUQOojQku5PpS4J1ag/?name=image.png)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 22246,
+      "dataset": "spc",
+      "subject": "Reviewed Action",
+      "description": "\"Possibly: Add additional action for committee members (i.e. reviewed) in addition to approved/disapproved (waiting on St. Petersburg for further info)\"-Tim\nThis can be done through the Admin>Approval Process>(pencil) Edit Process>(right menu)Actions page",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 42765,
+      "dataset": "spc",
+      "subject": " SYSTEM - New user permissions issue",
+      "description": "New user approval positions won't save, please see attached ticket and video for details.\nPlease let me know if you need any further information.\nThank you,\nAndrijana Ekberg",
+      "signals": {
+        "mentions_screenshot": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 36705,
+      "dataset": "spc",
+      "subject": "C&I User Approvals: Erika Johnson-Lewis",
+      "description": "Same issue as completed Ticket #36641 with user Erika Johnson-Lewis. Please see attached ticket.",
+      "signals": {
+        "mentions_screenshot": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "Search": [
+    {
+      "score": 8,
+      "ticket_id": 42140,
+      "dataset": "spc",
+      "subject": "SPC - URGENT -  System error; server down?",
+      "description": "We are getting the following error when trying to login to META.  The public search and sandbox appear to be fine.  I tried to put in a ticket but not sure that it worked.\nPlease let me know ASAP when fixed.  Thank you.\n ![](https://governet.zendesk.com/attachments/token/7sMOnMq9AQFjUAMnLK2AWI9po/?name=inlineImage.png)",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 37413,
+      "dataset": "spc",
+      "subject": "SPC ZenDesk Tickets",
+      "description": "Good afternoon,\nI responded to two ZenDesk tickets but I\u2019m not sure if responses after a ticket is marked resolved are emailed to you, so I wanted to make sure you received the responses. I left comments in ZenDesk on the following two tickets, if these can be re-opened that would be great. Please let me know if you have any questions.\n#37360\n#37401\nThank you,\nAndrijana Trajkovska\nResearch Analyst\nCurriculum Services\nSt. Petersburg College\n727.712.5237| trajkovska.andrijana@spcollege.edu\n                                       All college emails are public records.",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 20504,
+      "dataset": "spc",
+      "subject": "CTS Conversion Discipline",
+      "description": "There are two disciplines for Computer Technology Skills.  One is marked \"Conversion\" and I'm not sure what the purpose of this was.  It appears to have historical records assigned to it but then it looks like they are also under the Computer Technology Skills (sans Conversion).  Please delete if possible or let me know why it is there as it causes confusion sometimes when searching.",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 40026,
+      "dataset": "spc",
+      "subject": "Re: ARTICULATIONS \u2013 Art Prgm page clear out  CS196",
+      "description": "Board of Trustees The Board of Trustees is the governing board for American University of Ras Al Khamiah. Members of the Board are: H.E. Mr. Salem Ali Al Sharhan \u2013 Chairman Dr. Ateeq Abdul Aziz Jaka Al Mansouri Prof. Winfred Thompson Dr. Rashed Iqbal Mr. Jean Diab Dr. Pablo Tetter Dr. Ayesha Mohammed Abdulla Yasin Dr. David A. Schmidt \u2013 Ex-officio Member University Administrative Officers Dr. David A. Schmidt \u2013 President Professor Stephen Wilhite \u2013 Senior Vice President for Academic Affairs and Student Success/Provost Mr. Basheer Daoud \u2013 Vice President of Operational Excellence & Financial Management Ms. Amanda Fiona Forte \u2013 Chief Strategy and Excellence Officer Professor Hariclea Zengos \u2013 Dean School of Arts & Sciences Professor Joseph Wallis \u2013 Dean School of Business Prof. Khalid Hussain \u2013 Dean School of Engineering Dr. Mohammed Awad \u2013 Associate Provost for Academic Affairs Dr. Tahseen Arshi \u2013 Associate Provost for Research & Community Service Dr. Kevin Scott Konecny \u2013 Associate Provost for Student Affairs Mr. Rajesh Prema \u2013 Interim Associate Provost for Enrollment Management Mr. Mohamed Darwish \u2013 Director of the Saqr Library Ms. Rania Hafiz Hussein Ali \u2013 University Registrar",
+      "signals": {
+        "reasonable_length": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 5,
+      "ticket_id": 27031,
+      "dataset": "spc",
+      "subject": "Adding a degree type option",
+      "description": "Hello,\n1. Could you please add \"PSAV\" to the \"degree type\" drop-down menu options.\n2. Also, could we have control over that drop-down menu from the Admin Look-up Data page, as we do for the \"College/School/Department\" etc. drop-down menus?\nThanks so much for your assistance.\nKaren\nKaren L. Shaw\nResearch Specialist\nCurriculum Services Office\nShaw.Karen@spcollege.edu\n(727) 302-6482",
+      "signals": {
+        "reasonable_length": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ],
+  "System": [
+    {
+      "score": 8,
+      "ticket_id": 24361,
+      "dataset": "spc",
+      "subject": "Fwd: St. Petersburg College",
+      "description": "[image: From]\n[image: Governet]\n[image: .]\nCheradan,\nOn paret of client outreach this was brought to my attention by our contact\nat St. Petersburg college. For the most part the directions will be fairly\nsimiler and the document just needs to be branded to St. Peterburg. This\ncan be accomplished by replacing the screen captures and changing parts of\nthe texts. I wanted to give you a heads up so you can think about it can be\naccomplished in a timely manner. Maybe one of the testers could take a\ncouple of hours and update?\nOne thing we have not yet received that was part of our original contract\nis an SPC User\u2019s Guide.  The reference on our system still links to Crafton\nHills College (see screen shot).  Any idea on when this will be completed?\nThank you,\nMargaret\n[image: cid:image001.jpg@01CFBAF6.FCE9DDE0]\nBest Regards,\n[image: from]\nSteven T. Thyberg\n*Vice PresidentClient Services*\n*Governet*\n1000 River Walk Drive, Suite 350\nIdaho Falls, ID 83402\n208.522.1225 | Office\n208.534.8487 | Cell\n208.522.2896 | Fax\nthyberg@governet.net\nhttp://www.governet.net/\n*Building the Worldwide Curriculum Network  *",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "includes_url": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 7,
+      "ticket_id": 41825,
+      "dataset": "spc",
+      "subject": "SPC - API - Documentation - URGENT",
+      "description": "I would be remiss if I didn\u2019t express our frustration over this situation.  I believe that we have asked for documentation and updates with system changes such as this.  While I don\u2019t know the exact protocol, I do know that this has happened several times and leads to a negative impact on us as well as our students.  The information that has been impacted with this most recent issue, is attached to a requirement of the state of Florida, putting us out of compliance.  I believe this can be avoided if we are given information on these type of changes prior to implementation and my understanding is that this is a standard process.\nWe need to create documentaion that shows the name of the fields and the name in the API and if we can store this in Meta and keep it updated when there is any changes, that would be the best. This has caused several issues at SPC and we need to get this resolved ASAP.",
+      "signals": {
+        "reasonable_length": true,
+        "has_section_header": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 7,
+      "ticket_id": 19298,
+      "dataset": "spc",
+      "subject": "New Academic Org ",
+      "description": "I have created a new Acadmic Org - HSA-LD and was trying to assign it to a new certificate (HSA-CT) under Dean Rebecca Ludwig, however, it does not appear as an option.  If I am logged in under my own name it does appear.  I wasn't able to screen shot it since it is a drop down.  Have I missed a step in creating a new org that might be causing this?",
+      "signals": {
+        "reasonable_length": true,
+        "mentions_screenshot": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 37190,
+      "dataset": "spc",
+      "subject": "V2 system blocked",
+      "description": "our V2 system site is being blocked and we still need access for API and departmental use; our registration opens on Monday so this is an urgent request. Our access is at: https://v2archive.curriqunet.com/stpetersburg/  Cloudflare Ray ID: 7b7de9d4ca5209ea  Your IP: 35.140.144.121  Message is in attached document",
+      "signals": {
+        "reasonable_length": true,
+        "includes_url": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    },
+    {
+      "score": 6,
+      "ticket_id": 27882,
+      "dataset": "spc",
+      "subject": "Additional users",
+      "description": "Please add the following users to the Governet ticket system:  Tina Kuhn (kuhn.tina@spcollege.edu) and Will Baldwin (baldwin.will@spcollege.edu).  You can remove Karen Shaw as a user . Thank you, Angela",
+      "signals": {
+        "reasonable_length": true,
+        "specific_record_id": true,
+        "not_forwarded_email": true,
+        "no_clarifying_followup": true
+      }
+    }
+  ]
+}

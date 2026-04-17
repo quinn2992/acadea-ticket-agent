@@ -1,0 +1,428 @@
+{
+  "global_prefixes_top50": [
+    [
+      "SPC",
+      119
+    ],
+    [
+      "REPORTS",
+      20
+    ],
+    [
+      "PROGRAMS",
+      18
+    ],
+    [
+      "COURSES",
+      15
+    ],
+    [
+      "VVC",
+      9
+    ],
+    [
+      "ARTICULATIONS",
+      6
+    ],
+    [
+      "LPC",
+      5
+    ],
+    [
+      "SYSTEM",
+      3
+    ],
+    [
+      "URGENT",
+      3
+    ],
+    [
+      "SPC SYSTEM",
+      2
+    ],
+    [
+      "APPROVALS",
+      2
+    ],
+    [
+      "TABLE",
+      2
+    ],
+    [
+      "PROPOSAL LANDING PAGE",
+      2
+    ],
+    [
+      "V2",
+      2
+    ],
+    [
+      "SPC REPORTS",
+      1
+    ],
+    [
+      "ADMIN REPORTS",
+      1
+    ],
+    [
+      "SEARCH",
+      1
+    ],
+    [
+      "PROPOSALS",
+      1
+    ],
+    [
+      "SEMESTER/TERM TABLE",
+      1
+    ],
+    [
+      "COURSE",
+      1
+    ],
+    [
+      "HIGH",
+      1
+    ],
+    [
+      "SYS REPORT",
+      1
+    ],
+    [
+      "ARTICULATIONS CATALOG",
+      1
+    ],
+    [
+      "WORKFLOW",
+      1
+    ],
+    [
+      "CATALOG",
+      1
+    ],
+    [
+      "ARTICULATION",
+      1
+    ],
+    [
+      "AD HOC REPORT",
+      1
+    ],
+    [
+      "PROGRAM",
+      1
+    ],
+    [
+      "SPC  BSC 3017",
+      1
+    ],
+    [
+      "FW",
+      1
+    ],
+    [
+      "LPL",
+      1
+    ],
+    [
+      "NMAT 210",
+      1
+    ],
+    [
+      "ERRORS",
+      1
+    ]
+  ],
+  "canonical_prefixes_top50": [
+    [
+      "SPC",
+      119
+    ],
+    [
+      "REPORTS",
+      21
+    ],
+    [
+      "PROGRAMS",
+      18
+    ],
+    [
+      "COURSES",
+      15
+    ],
+    [
+      "VVC",
+      9
+    ],
+    [
+      "ARTICULATIONS",
+      6
+    ],
+    [
+      "SYSTEM",
+      5
+    ],
+    [
+      "LPC",
+      5
+    ],
+    [
+      "URGENT",
+      3
+    ],
+    [
+      "APPROVALS",
+      2
+    ],
+    [
+      "TABLE",
+      2
+    ],
+    [
+      "PROPOSAL LANDING PAGE",
+      2
+    ],
+    [
+      "V2",
+      2
+    ],
+    [
+      "ADMIN REPORTS",
+      1
+    ],
+    [
+      "SEARCH",
+      1
+    ],
+    [
+      "PROPOSALS",
+      1
+    ],
+    [
+      "SEMESTER/TERM TABLE",
+      1
+    ],
+    [
+      "COURSE",
+      1
+    ],
+    [
+      "HIGH",
+      1
+    ],
+    [
+      "REPORT",
+      1
+    ],
+    [
+      "ARTICULATIONS CATALOG",
+      1
+    ],
+    [
+      "WORKFLOW",
+      1
+    ],
+    [
+      "CATALOG",
+      1
+    ],
+    [
+      "ARTICULATION",
+      1
+    ],
+    [
+      "HOC REPORT",
+      1
+    ],
+    [
+      "PROGRAM",
+      1
+    ],
+    [
+      "BSC 3017",
+      1
+    ],
+    [
+      "FW",
+      1
+    ],
+    [
+      "LPL",
+      1
+    ],
+    [
+      "210",
+      1
+    ],
+    [
+      "ERRORS",
+      1
+    ]
+  ],
+  "per_dataset_prefix_top20": {
+    "spc": [
+      [
+        "SPC",
+        119
+      ],
+      [
+        "REPORTS",
+        20
+      ],
+      [
+        "PROGRAMS",
+        18
+      ],
+      [
+        "COURSES",
+        15
+      ],
+      [
+        "ARTICULATIONS",
+        6
+      ],
+      [
+        "SYSTEM",
+        3
+      ],
+      [
+        "URGENT",
+        3
+      ],
+      [
+        "SPC SYSTEM",
+        2
+      ],
+      [
+        "APPROVALS",
+        2
+      ],
+      [
+        "TABLE",
+        2
+      ],
+      [
+        "PROPOSAL LANDING PAGE",
+        2
+      ],
+      [
+        "V2",
+        2
+      ],
+      [
+        "SPC REPORTS",
+        1
+      ],
+      [
+        "ADMIN REPORTS",
+        1
+      ],
+      [
+        "SEARCH",
+        1
+      ],
+      [
+        "PROPOSALS",
+        1
+      ],
+      [
+        "SEMESTER/TERM TABLE",
+        1
+      ],
+      [
+        "COURSE",
+        1
+      ],
+      [
+        "HIGH",
+        1
+      ],
+      [
+        "SYS REPORT",
+        1
+      ]
+    ],
+    "craig": [
+      [
+        "LPC",
+        5
+      ],
+      [
+        "LPL",
+        1
+      ],
+      [
+        "NMAT 210",
+        1
+      ],
+      [
+        "ERRORS",
+        1
+      ]
+    ],
+    "armando": [
+      [
+        "VVC",
+        9
+      ]
+    ]
+  },
+  "unprefixed_counts": {
+    "spc": 396,
+    "craig": 191,
+    "armando": 34
+  },
+  "unprefixed_samples": {
+    "spc": [
+      "MLOs/CLOs not appearing correctly on Simple Syllabus",
+      "SPC FL CIP Table update: 1101510014 ",
+      "Articulation Program Proposals - Teach-Out",
+      "Additional Admin Report - Articulation AR Courses",
+      "Additional Admin Report - Articulation AR Programs",
+      "Academic Pathways Instructional Text",
+      "SPC URGENT API access",
+      "Remove Archived Pathways link on report",
+      "New Status - IC Approved",
+      "Andrijana Ekberg full access to SPC ZenDesk",
+      "Program PW Rpt ID# 239 PDF layout change",
+      "TR form should not have Porgram Outcomes",
+      "Add Catalog module to Dashboard menu ribbon",
+      "URGENT Course Block Library, blocks missing",
+      "SYSTEM and ARs - award types"
+    ],
+    "craig": [
+      "Las Positas - Catalog - Work Experience Units and Hours Not Displaying - UAT",
+      "Stalled platform",
+      "Admin Outline report requisite justifications",
+      "Re: Catalog Errors",
+      "Program Mapper - Dates/Terms",
+      "Program Learning Outcomes - Edit",
+      "Catalog Errors",
+      "Legacy Methods of Instruction",
+      "Activity Units/Hours",
+      "Requisite page issue",
+      "General Education/Transfer Output for Catalog",
+      "New General Education/Transfer Element",
+      "Noncredit Courses - Hours in Catalog",
+      "No Unit Value Lab",
+      "Program Report Bug"
+    ],
+    "armando": [
+      "Search Dashboard Courses & Programs - Output Fields",
+      "Custom Comparison Report | Missing Example Assignments",
+      "Re: Contact Hours Per Term Chart Error | Course Outline of Record Report",
+      "Two In-Review Proposals One Active Course | AUTO 60.5",
+      "Admin User Issue",
+      "Course Number Disappearing After Launch",
+      "Entrance Skills Verbiage Mismatch ",
+      "Active Program | Cannot Add/Change Division & Department",
+      "Course Outline of Record (COR) Excel Report?",
+      "Cannot Delete Historical Objectives",
+      "Min-Max Field Validation Logic Question",
+      "Re: VVC - Water Treatment Leverl I & II",
+      "Hours Summary Chart Issue | Noncredit Course Type",
+      "Contact Hours Per Term Chart Error | Course Outline of Record Report",
+      "Requisite Course Dropdown Field Question/Modification"
+    ]
+  }
+}
