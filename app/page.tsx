@@ -169,8 +169,20 @@ export default function Page() {
               </h2>
               <p style={styles.emptyCopy}>
                 Describe the problem in your own words. I&apos;ll ask a few
-                follow-ups and hand you a ready-to-paste ticket.
+                follow-ups and hand you a ready-to-paste ticket. The more you
+                include up front, the fewer questions I need to ask.
               </p>
+              <div style={styles.examples}>
+                <div style={styles.examplesLabel}>What to include</div>
+                <ul style={styles.examplesList}>
+                  <li>What&apos;s broken or what you need — in one sentence</li>
+                  <li>Where — the specific report, course, program, form, or field</li>
+                  <li>What you expected vs. what&apos;s actually happening</li>
+                  <li>Exact error text if there is one</li>
+                  <li>URL(s) and screenshot(s) if it&apos;s a visual issue (you&apos;ll attach screenshots in Zendesk after pasting)</li>
+                  <li>What&apos;s blocked because of it — who&apos;s affected, any committee/registration/audit context</li>
+                </ul>
+              </div>
               <div style={styles.examples}>
                 <div style={styles.examplesLabel}>Example starters</div>
                 <ul style={styles.examplesList}>

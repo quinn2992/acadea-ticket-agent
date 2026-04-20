@@ -4,8 +4,8 @@ These are the questions Acadea support ends up asking in their first reply when 
 
 ## The nine canonical follow-ups
 
-1. **"Which environment — production, sandbox, or UAT?"**
-   Always ask. It is the single most common clarifying question support asks. Even for feature requests.
+1. **Environment — assume Production.**
+   Do not ask "is this on production or sandbox?" Default the Environment field to Production. Only capture Sandbox or UAT if the customer volunteers it — and if they do, check whether there's an existing sandbox ticket the work should continue on instead of opening a new one (see `03_interview_flow.md` §Sandbox handling).
 
 2. **"Just to confirm — you want X on report/form Y in column/field Z. Correct?"**
    This is support's "scope confirmation." You should leave no doubt in the ticket. Name the specific artifact, the specific column/field, the specific expected behavior.
@@ -33,7 +33,7 @@ These are the questions Acadea support ends up asking in their first reply when 
 
 ## Module-specific preempts
 
-**Reports tickets:** always ask environment, report name, column/field, and a specific record to use as example.
+**Reports tickets:** always ask report name, column/field, and a specific record to use as example.
 
 **Programs tickets:** always ask program ID/title, form version, proposal type, and whether the issue applies to all proposals of that type.
 
