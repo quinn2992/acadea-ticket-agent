@@ -10,8 +10,8 @@ Subject: SPC - REPORTS - Course Outline Report pulling historical program drafts
 Business Use Case:
 SPC is using the Course Outline Report to prepare active course documentation for the upcoming catalog cycle. The report needs to reflect only current active program versions so the catalog and downstream systems stay consistent.
 
-Impact:
-Multiple active Course Outline Reports are affected. Any course whose "Related Programs" section is pulling in superseded or deleted drafts is unusable for catalog purposes. Scope appears to be system-wide for SPC rather than isolated to one course.
+Business Impact:
+Multiple active Course Outline Reports are affected. Any course whose "Related Programs" section is pulling in superseded or deleted drafts is unusable for catalog purposes. Scope appears to be system-wide for SPC rather than isolated to one course. No hard deadline cited, but the catalog cycle is the driver for prioritization.
 
 Environment:
 Production.
@@ -35,12 +35,6 @@ Report output affects all SPC curriculum staff who consume the Course Outline Re
 
 Related Tickets:
 Customer has not cited a specific prior ticket ID but believes this has come up before.
-
-Target Date / Driver:
-No hard deadline cited, but the catalog cycle is the driver for prioritization.
-
-Priority (customer-suggested):
-normal — impact is broad but there is no same-day blocker.
 ```
 
 ## Exemplar 2 — System, emergency (brief, precise)
@@ -51,8 +45,8 @@ Subject: SPC - SYSTEM - 500 errors on webservices getEntityData (LIVE)
 Business Use Case:
 SPC pulls course data from the webservices API to populate their public-facing catalog and student systems. The API being down means course data on their website is stale or missing, which is visible to students.
 
-Impact:
-Multiple course lookups are failing in production. Customer observed 500s across several course codes (MAC2311, DEP2004, DEP2102, CLP2140). TEST endpoint mostly returns 200, so the issue appears isolated to LIVE.
+Business Impact:
+Multiple course lookups are failing in production. Customer observed 500s across several course codes (MAC2311, DEP2004, DEP2102, CLP2140). TEST endpoint mostly returns 200, so the issue appears isolated to LIVE. Ongoing outage — students are seeing missing course info on the public catalog right now.
 
 Environment:
 Production. LIVE endpoint specifically:
@@ -77,12 +71,6 @@ Customer's API consumer (their website) is affected. Internal Acadea users may a
 
 Related Tickets:
 None cited.
-
-Target Date / Driver:
-Ongoing outage — students are seeing missing course info on the public catalog right now.
-
-Priority (customer-suggested):
-urgent — production endpoint failing with 500s, customer-facing impact live.
 ```
 
 ## Exemplar 3 — Programs / Workflows (structured, time-bound)
@@ -93,8 +81,8 @@ Subject: SPC - WORKFLOW - C&I color group not pulling approved Level 2 courses
 Business Use Case:
 SPC's Curriculum and Instruction Committee meets tomorrow morning and needs the C&I color group (Yellow) to reflect courses that have passed Level 2 Technical Review. Right now the group is pulling the wrong set of courses and the committee cannot work off the current data.
 
-Impact:
-Affects the C&I Yellow color group for the entire upcoming committee meeting. Specific courses currently misrouted include CJE 2645 (approved 1/10/2023) and DEH 2804L (approved 1/12/2023). ATE 2612 was also tested in sandbox and routed incorrectly on disapproval.
+Business Impact:
+Affects the C&I Yellow color group for the entire upcoming committee meeting. Specific courses currently misrouted include CJE 2645 (approved 1/10/2023) and DEH 2804L (approved 1/12/2023). ATE 2612 was also tested in sandbox and routed incorrectly on disapproval. Committee meets tomorrow morning; workaround unclear, which is why the customer has asked for a sandbox refresh alongside the production fix.
 
 Environment:
 Sandbox tested; needs production fix followed by a sandbox refresh.
@@ -123,12 +111,6 @@ C&I Committee members, specifically reviewers assigned to the Yellow color group
 
 Related Tickets:
 Related to ticket #36577 — customer requests both be addressed together.
-
-Target Date / Driver:
-Needed before C&I Committee meeting tomorrow morning. Production fix required, followed by sandbox refresh so committee can use sandbox if needed.
-
-Priority (customer-suggested):
-high — hard deadline tied to committee meeting, workaround unclear.
 ```
 
 ## Exemplar 4 — Catalog (configuration-shaped, short)
@@ -139,8 +121,8 @@ Subject: SPC - CATALOG - Semester/Term table add 2027 through Spring 2029
 Business Use Case:
 SPC's curriculum team is preparing proposals targeting Spring 2027 and beyond. The Semester/Term lookup does not yet include those entries, so proposals cannot be set to those terms.
 
-Impact:
-Blocks forward-dated proposal work across the curriculum team. Not currently blocking an active proposal launch, but the team wants the entries available to start drafting.
+Business Impact:
+Blocks forward-dated proposal work across the curriculum team. Not currently blocking an active proposal launch, but the team wants the entries available to start drafting. No hard deadline cited.
 
 Environment:
 Production.
@@ -170,22 +152,16 @@ Not applicable.
 
 Affected Users/Records:
 SPC curriculum team.
-
-Target Date / Driver:
-Customer would like this as soon as possible so forward-dated proposal drafting can proceed.
-
-Priority (customer-suggested):
-normal — standard configuration update; no hard deadline cited.
 ```
 
 ## What these exemplars share
 
 - **Subject** leads with org code + module + specific artifact + symptom, no urgency words.
 - **Business Use Case** states the end goal, not the symptom.
-- **Impact** is quantified (how many users / records) or at least scoped.
-- **Environment** is always set.
+- **Business Impact** is quantified (users/records affected) and folds in external context (committee dates, registration windows, outages) — as context, never as a deadline Acadea is agreeing to meet.
+- **Environment** defaults to Production; Sandbox/UAT appears only when the customer volunteered it.
 - **Current vs Expected** uses contrasting, symmetrical structure.
 - **Steps to Reproduce** uses numbered list when a repro is possible; says "Not applicable" when it isn't.
 - **Evidence** names what exists and where the customer will attach it.
-- **Priority** includes a one-sentence reason.
+- No Priority line, no Target Date section — triage assigns both after review.
 - No solution prescribed; no urgency screaming; no Jira fields.
