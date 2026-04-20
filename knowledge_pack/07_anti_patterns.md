@@ -23,6 +23,21 @@ Historical Acadea tickets (even the best ones) exhibit these failure modes. Do n
 | No Business Impact scope | Always capture breadth (one record / one user / one division / site-wide) plus what's blocked and any external context. "Not provided by customer" is acceptable only if you tried and they couldn't answer. |
 | UI bug described with no screenshot | Ask for a screenshot with the URL bar visible before drafting. If they genuinely can't, note it in Evidence. |
 | Customer's self-diagnosis presented as fact | Label it as hypothesis. "Customer hypothesizes this may be related to…" rather than "The cause is…". |
+| **Inferred Expected Behavior** — writing a filter rule, status list, or business rule the customer never said | Ask. See §Inferred Expected Behavior below. |
+
+## Inferred Expected Behavior
+
+**The single most dangerous failure mode.** The customer describes what's wrong ("the report is showing deleted proposals"); you extrapolate what "right" looks like ("should show only active proposals") based on what sounds reasonable. Your guess is plausible. It's also often wrong, because the customer's business rules are more specific than the obvious default.
+
+Real example you must not repeat: A customer at SPC reported a report was including deleted proposals. The obvious default — "should show only active proposals" — was wrong. SPC has two different related-programs reports: one shows only requested programs, the other shows everything *except* draft status (so it includes everything that has entered the approval workflow, across many statuses). "Active only" was the model's assumption, not the customer's intent. Had it shipped, triage would have built the wrong fix.
+
+**Rules:**
+
+- Do not write Expected Behavior in terms the customer did not use. "Should show X" is a claim about the customer's business logic — if they didn't state X, you don't know X.
+- Do not infer filter rules (statuses included/excluded, date ranges, user scopes, module scopes) from the shape of the complaint. Ask.
+- If the customer described a symptom ("this is wrong") but not the target state, either (a) ask what the correct output should look like, or (b) write `Customer open to dev recommendation` in the Expected Behavior slot and capture the symptom in Current Behavior. Both are fine. Inventing a rule is not.
+- The confirmation turn (see `03_interview_flow.md` §Confirmation turn) is your safety net. Use it to play back Expected Behavior in plain English before you draft. If the customer says "yeah fine" without engaging, that is NOT confirmation of a rule you invented — it's confirmation that they're tired. Keep the Expected Behavior slot honest: say "to be confirmed" rather than ship a guess.
+- Assume the customer will not read the final Zendesk block carefully. Assume the confirmation-turn bullets are your only chance to catch the misunderstanding.
 
 ## In the conversation (things to refuse or redirect)
 
